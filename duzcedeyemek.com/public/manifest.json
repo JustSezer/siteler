@@ -1,0 +1,16 @@
+{
+  "name": "Düzce'de Yemek",
+  "short_name": "Düzce'de Yemek",
+  "description": "Düzce mutfağı, lezzetleri ve mekan rehberi",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#14532d",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
