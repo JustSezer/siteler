@@ -1,0 +1,48 @@
+# Bolu Dagi Rehberi
+
+> Bolu Dagi ve çevresindeki doğal guzellikler, aktiviteler, konaklama ve ulaşım hakkında kapsamli Turkce gezi rehberi.
+
+## About
+Bolu Dagi Rehberi, Türkiye'nin Bati Karadeniz Bölgesi'nde yer alan Bolu Dagi ve cevresini tanitan bir gezi rehberi sitesidir. Abant Gölü, Yedigoller Milli Parki, Kartalkaya Kayak Merkezi, Gölcük Tabiat Parki ve Mudurnu gibi önemli turistik noktalari kapsamli sekilde tanıtır.
+
+Site, gezginlere dört mevsim yapilabilecek aktiviteler, yöresel lezzetler, konaklama secenekleri ve ulaşım bilgileri sunmaktadir.
+
+## Key Topics
+- Gezilecek Yerler: Abant Gölü, Yedigoller, Kartalkaya, Gölcük, Mudurnu, Seben
+- Aktiviteler: Kayak, doğa yuruyusu, dag bisikleti, fotograf, balik tutma, kamp
+- Mevsimler: Dört mevsim rehberi, ideal ziyaret zamanlari
+- Yöresel Lezzetler: Bolu kebabi, Mengen mutfagi, alabalik, dag mantisi
+- Konaklama: Dag otelleri, gol kenari, şehir merkezi, bungalov
+- Ulaşım: Istanbul'dan 3 saat, Ankara'dan 2.5 saat
+
+## Important Pages
+- [Ana Sayfa](https://bolu-dagi.com/): Bolu Dagi hakkında genel bilgi ve rehber
+- [Blog](https://bolu-dagi.com/blog): Gezi rehberleri ve rota onerileri
+- [Gizlilik Politikasi](https://bolu-dagi.com/gizlilik): Kişisel verilerin korunmasi
+- [Kullanim Sartlari](https://bolu-dagi.com/kullanim-sartlari): Site kullanim kosullari
+- [Çerez Politikasi](https://bolu-dagi.com/cerez-politikasi): Çerez kullanim detaylari
+
+## Blog Yazilari
+- [Bolu Dagi Gezilecek Yerler Rehberi](https://bolu-dagi.com/blog/bolu-dagi-gezilecek-yerler-rehberi): 10 noktali kapsamli gezi rehberi
+- [Kartalkaya Kayak Rehberi](https://bolu-dagi.com/blog/kartalkaya-kayak-rehberi): Pistler, fiyatlar, ekipman ve konaklama
+- [Bolu Yöresel Lezzetleri](https://bolu-dagi.com/blog/bolu-yoresel-lezzetler): Ascilar diyarinin mutfagi
+- [Yedigoller Sonbahar Fotograf Rehberi](https://bolu-dagi.com/blog/yedigoller-sonbahar-fotograf-rehberi): Fotografcilar için ipuclari
+- [Istanbul'dan Bolu Hafta Sonu Plani](https://bolu-dagi.com/blog/bolu-hafta-sonu-plani): 2 günlük gezi programi
+- [Bolu'da Kamp Rehberi](https://bolu-dagi.com/blog/bolu-kamp-rehberi): En iyi 5 kamp noktasi
+- [Bolu Konaklama Rehberi](https://bolu-dagi.com/blog/bolu-konaklama-rehberi): Otel, dag evi ve bungalov secenekleri
+
+## Frequently Asked Questions
+- Q: Bolu Dagi nerede?
+  A: Türkiye'nin Bati Karadeniz Bölgesi'nde, Istanbul'a 262 km, Ankara'ya 191 km mesafededir.
+- Q: Bolu Dagi'na ne zaman gidilir?
+  A: Dört mevsim ziyaret edilebilir. Kış kayak, yaz trekking, sonbahar fotograf, ilkbahar kamp için idealdir.
+- Q: Kartalkaya kayak sezonu ne zaman?
+  A: Genellikle Aralik-Mart arasi. Pist yüksekliği 2.200 metreye kadar çıkar.
+- Q: Bolu'da ne yenir?
+  A: Bolu kebabi, Mengen mutfagi, Abant alabaligi, dag mantisi, orman kebabi ve yöresel peynir-kaymak basta gelen lezzetlerdir.
+- Q: Abant Gölü'ne nasıl gidilir?
+  A: Bolu şehir merkezine 32 km uzakliktadir. Özel arac veya minibuslerle ulaşım mumkundur.
+
+## Contact
+- Email: info@bolu-dagi.com
+- Location: Bolu, Türkiye

@@ -1,26 +1,49 @@
 import type { MetadataRoute } from "next";
-import { getAllPosts } from "@/lib/db";
+import { getAllPosts } from "@/lib/blog";
+
+const BASE_URL = "https://bolu-dagi.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://bolu-dagi.com";
+  const posts = getAllPosts();
 
-  const staticPages: MetadataRoute.Sitemap = [
-    { url: baseUrl, lastModified: new Date(), changeFrequency: "daily", priority: 1 },
-    { url: `${baseUrl}/blog`, lastModified: new Date(), changeFrequency: "daily", priority: 0.9 },
+  const blogEntries: MetadataRoute.Sitemap = posts.map((post) => ({
+    url: `${BASE_URL}/blog/${post.slug}`,
+    lastModified: new Date(post.date),
+    changeFrequency: "monthly",
+    priority: 0.7,
+  }));
+
+  return [
+    {
+      url: BASE_URL,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 1,
+    },
+    {
+      url: `${BASE_URL}/blog`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    ...blogEntries,
+    {
+      url: `${BASE_URL}/gizlilik`,
+      lastModified: new Date(),
+      changeFrequency: "yearly",
+      priority: 0.3,
+    },
+    {
+      url: `${BASE_URL}/kullanim-sartlari`,
+      lastModified: new Date(),
+      changeFrequency: "yearly",
+      priority: 0.3,
+    },
+    {
+      url: `${BASE_URL}/cerez-politikasi`,
+      lastModified: new Date(),
+      changeFrequency: "yearly",
+      priority: 0.3,
+    },
   ];
-
-  let postPages: MetadataRoute.Sitemap = [];
-  try {
-    const posts = getAllPosts();
-    postPages = posts.map((post) => ({
-      url: `${baseUrl}/blog/${post.slug}`,
-      lastModified: new Date(post.updated_at),
-      changeFrequency: "weekly" as const,
-      priority: 0.7,
-    }));
-  } catch {
-    // DB may not exist yet during build
-  }
-
-  return [...staticPages, ...postPages];
 }

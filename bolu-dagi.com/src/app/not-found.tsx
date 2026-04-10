@@ -1,34 +1,33 @@
 import Link from "next/link";
-import type { Metadata } from "next";
-
-export const metadata: Metadata = {
-  title: "Sayfa Bulunamadı | Bolu Dağı",
-  description: "Aradığınız sayfa bulunamadı.",
-};
+import { Mountain, ArrowLeft } from "lucide-react";
 
 export default function NotFound() {
   return (
-    <section className="min-h-[70vh] flex items-center justify-center px-4">
-      <div className="text-center max-w-lg">
-        <div className="w-24 h-24 bg-green-50 rounded-full flex items-center justify-center mx-auto mb-6">
-          <svg className="w-12 h-12 text-green-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.2}>
-            <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
-          </svg>
-        </div>
-        <div className="text-7xl sm:text-8xl font-bold text-green-100 select-none mb-2">404</div>
-        <h1 className="text-2xl sm:text-3xl font-bold text-green-950 mb-3">Sayfa Bulunamadı</h1>
-        <p className="text-gray-500 mb-8 text-sm sm:text-base">
-          Aradığınız sayfa taşınmış, silinmiş veya hiç var olmamış olabilir.
-        </p>
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
-          <Link href="/" className="w-full sm:w-auto bg-green-900 hover:bg-green-800 text-white font-semibold px-6 py-3 rounded-xl transition-colors text-center">
-            Ana Sayfaya Dön
-          </Link>
-          <Link href="/blog" className="w-full sm:w-auto border border-green-200 text-green-700 hover:bg-green-50 font-semibold px-6 py-3 rounded-xl transition-colors text-center">
-            Blog Yazıları
-          </Link>
-        </div>
+    <div className="flex min-h-screen flex-col items-center justify-center bg-background px-4 text-center">
+      <Mountain className="w-16 h-16 text-primary mb-6 opacity-60" />
+      <h1 className="text-6xl font-bold text-foreground mb-4">404</h1>
+      <h2 className="text-2xl font-semibold text-foreground mb-4">
+        Sayfa Bulunamadi
+      </h2>
+      <p className="text-muted-foreground max-w-md mb-8 leading-relaxed">
+        Aradiginiz sayfa mevcut değil, tasindi veya silinmis olabilir.
+        Ana sayfaya donebilir ya da blog yazilarimiza goz atabilirsiniz.
+      </p>
+      <div className="flex flex-col sm:flex-row gap-4 justify-center">
+        <Link
+          href="/"
+          className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-white font-semibold rounded-full hover:bg-primary-light transition-colors duration-200"
+        >
+          <ArrowLeft className="w-4 h-4" />
+          Ana Sayfaya Don
+        </Link>
+        <Link
+          href="/blog"
+          className="inline-flex items-center gap-2 px-6 py-3 border-2 border-primary text-primary font-semibold rounded-full hover:bg-primary hover:text-white transition-all duration-200"
+        >
+          Blog Yazilarini Gor
+        </Link>
       </div>
-    </section>
+    </div>
   );
 }

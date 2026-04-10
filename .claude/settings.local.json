@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cp:*)",
+      "Bash(mkdir -p \"E:/Visual Studio/Siteler/.claude/agents\")",
+      "Bash(cp \"E:/Visual Studio/Siteler/webforge/agents/\"*.md \"E:/Visual Studio/Siteler/.claude/agents/\")",
+      "Bash(npx create-next-app@latest bolu-dagi.com --typescript --tailwind --eslint --app --src-dir --no-git --use-npm)",
+      "Bash(npm install:*)",
+      "Bash(npm run:*)",
+      "Bash(npx next:*)",
+      "Bash(start:*)",
+      "Bash(node scripts/generate-images.mjs)",
+      "Bash(wc:*)",
+      "Bash(node scripts/fix-turkish.mjs)",
+      "Bash(xargs sed:*)",
+      "WebSearch"
+    ]
+  }
+}
