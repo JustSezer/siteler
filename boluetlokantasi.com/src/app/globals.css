@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0C0A09;
+  --background-alt: #1C1917;
+  --foreground: #FAFAF9;
+  --foreground-muted: #A8A29E;
+  --primary: #DC2626;
+  --primary-light: #EF4444;
+  --primary-dark: #991B1B;
+  --secondary: #F59E0B;
+  --secondary-light: #FBBF24;
+  --accent: #292524;
+  --accent-warm: #1A1614;
+  --muted: #171412;
+  --muted-foreground: #78716C;
+  --card: #1C1917;
+  --card-foreground: #FAFAF9;
+  --border: #292524;
+  --border-light: #44403C;
+  --warm-gray: #57534E;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-background-alt: var(--background-alt);
+  --color-foreground: var(--foreground);
+  --color-foreground-muted: var(--foreground-muted);
+  --color-primary: var(--primary);
+  --color-primary-light: var(--primary-light);
+  --color-primary-dark: var(--primary-dark);
+  --color-secondary: var(--secondary);
+  --color-secondary-light: var(--secondary-light);
+  --color-accent: var(--accent);
+  --color-accent-warm: var(--accent-warm);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-border: var(--border);
+  --color-border-light: var(--border-light);
+  --color-warm-gray: var(--warm-gray);
+  --font-sans: var(--font-geist-sans);
+  --font-serif: var(--font-playfair);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background: var(--primary);
+  color: white;
+}
+
+:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border-light);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary);
+}
+
+.font-serif {
+  font-family: var(--font-serif), Georgia, 'Times New Roman', serif;
+}

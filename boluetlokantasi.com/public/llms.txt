@@ -1,0 +1,32 @@
+# Bolu Et Lokantası Rehberi
+> Bolu'nun en iyi et lokantaları, kebapçıları ve mangal restoranları rehberi.
+
+## Site Bilgileri
+- URL: https://boluetlokantasi.com
+- Konu: Bolu et lokantaları ve yöresel lezzetler rehberi
+- Dil: Türkçe
+
+## Ana Bölümler
+- Lokantalar: Bolu'nun en iyi 8 et lokantası
+- Et Çeşitleri: Bolu kebabı, sac kavurma, kuzu tandır, orman kebabı, mangal köfte, dana pirzola
+- Pişirme Teknikleri: Odun ateşi mangal, tandır fırını, sac üstü, kağıtta pişirme
+- SSS: Bolu'da et yemekle ilgili sıkça sorulan sorular
+
+## Blog Yazıları
+- /blog/bolu-en-iyi-et-lokantalari - Bolu'nun En İyi Et Lokantaları: 2026 Güncel Rehber
+- /blog/bolu-kebabi-nedir - Bolu Kebabı Nedir? Tarifi, Tarihi ve En İyi Yendiği Yerler
+- /blog/bolu-dagi-bakacak-lokantalari - Bolu Dağı Bakacak Mevkii Lokantaları
+- /blog/et-pisirme-teknikleri - Geleneksel Et Pişirme Teknikleri
+- /blog/bolu-yemek-kulturu - Bolu Yemek Kültürü: Aşçılar Diyarının Mutfağı
+
+## SSS
+- Bolu'da en iyi et lokantası hangisi?
+- Bolu kebabı nedir, nasıl yapılır?
+- Bolu Dağı üzerinde hangi lokantalar var?
+- Bolu'da 7/24 açık et lokantası var mı?
+- Bolu et lokantalarında fiyatlar nasıl?
+- Bolu'ya et yemeye nasıl gidilir?
+
+## İletişim
+- E-posta: info@boluetlokantasi.com
+- Konum: Bolu, Türkiye
