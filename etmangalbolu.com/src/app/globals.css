@@ -1,0 +1,161 @@
+@import "tailwindcss";
+
+:root {
+  /* Editorial monokrom palet — gazete/dergi hissi */
+  --paper: #F7F4EF;          /* newsprint krem */
+  --paper-dark: #EFEAE0;     /* alt zemin */
+  --ink: #14110F;            /* near-black, sıcak ton */
+  --ink-soft: #2A2522;
+  --ink-muted: #6B635C;
+  --rule: #1A1614;           /* gazete çizgileri */
+  --rule-soft: #C9C0B2;      /* zayıf çizgi */
+  --ember: #B23A0C;          /* tek aksan: köz turuncu/kızıl */
+  --ember-deep: #7A2606;
+  --highlight: #F2EAD8;      /* hafif vurgu zemini */
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-paper-dark: var(--paper-dark);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-ink-muted: var(--ink-muted);
+  --color-rule: var(--rule);
+  --color-rule-soft: var(--rule-soft);
+  --color-ember: var(--ember);
+  --color-ember-deep: var(--ember-deep);
+  --color-highlight: var(--highlight);
+  --font-display: var(--font-fraunces);
+  --font-body: var(--font-source-serif);
+  --font-mono: var(--font-jetbrains);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-source-serif), Georgia, "Times New Roman", serif;
+  font-feature-settings: "ss01", "kern";
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+:focus-visible {
+  outline: 2px solid var(--ember);
+  outline-offset: 3px;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--paper);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--ink);
+}
+
+/* Display serif — manşet, başlık */
+.font-display {
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-optical-sizing: auto;
+  font-variation-settings: "SOFT" 30, "WONK" 0;
+}
+
+.font-body {
+  font-family: var(--font-source-serif), Georgia, serif;
+}
+
+.font-mono {
+  font-family: var(--font-jetbrains), "Courier New", monospace;
+}
+
+/* Gazete kuralları (rules) */
+.rule-thick {
+  border-top: 4px double var(--rule);
+}
+.rule-thin {
+  border-top: 1px solid var(--rule);
+}
+.rule-soft {
+  border-top: 1px solid var(--rule-soft);
+}
+
+/* Drop cap — editorial paragraf girişi */
+.drop-cap::first-letter {
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-size: 4rem;
+  line-height: 0.85;
+  font-weight: 900;
+  float: left;
+  margin: 0.4rem 0.55rem 0 0;
+  color: var(--ink);
+  font-feature-settings: "ss01";
+}
+@media (min-width: 640px) {
+  .drop-cap::first-letter {
+    font-size: 5.5rem;
+    margin: 0.45rem 0.65rem 0 0;
+  }
+}
+
+/* Pull quote stili */
+.pull-quote {
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* Paper grain texture — hafif kağıt dokusu */
+.paper-grain {
+  position: relative;
+}
+.paper-grain::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  opacity: 0.05;
+  pointer-events: none;
+  mix-blend-mode: multiply;
+  z-index: 0;
+}
+
+/* Numaralı entry stili (rehber listesi) */
+.entry-number {
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-weight: 900;
+  font-feature-settings: "lnum";
+  font-variant-numeric: lining-nums;
+  letter-spacing: -0.04em;
+}
+
+/* Link altı çizgisi — editorial link stili */
+.editorial-link {
+  color: var(--ink);
+  text-decoration: underline;
+  text-decoration-color: var(--ember);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+  transition: all 0.2s ease;
+}
+.editorial-link:hover {
+  color: var(--ember);
+  text-decoration-thickness: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
