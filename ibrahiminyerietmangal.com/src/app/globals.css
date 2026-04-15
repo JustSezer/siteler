@@ -1,0 +1,190 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-coal: #0b0908;
+  --color-coal-2: #141110;
+  --color-coal-3: #1c1816;
+  --color-ash: #2a2623;
+  --color-smoke: #3a3430;
+  --color-bone: #f3ece1;
+  --color-bone-soft: #d9cfbd;
+  --color-bone-mute: #9b9184;
+  --color-ember: #e8661b;
+  --color-ember-soft: #f08a3c;
+  --color-gold: #c9a44a;
+  --color-gold-soft: #e0c476;
+  --color-blood: #8a1e1e;
+
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    background: var(--color-coal);
+    color: var(--color-bone);
+    font-family: var(--font-sans);
+    font-feature-settings: "ss01", "cv11";
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  ::selection {
+    background: var(--color-ember);
+    color: var(--color-coal);
+  }
+  *:focus-visible {
+    outline: 2px solid var(--color-ember);
+    outline-offset: 3px;
+  }
+  button,
+  a {
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+@layer components {
+  .display-font {
+    font-family: var(--font-display);
+    font-weight: 400;
+    letter-spacing: -0.02em;
+  }
+  .mono-font {
+    font-family: var(--font-mono);
+  }
+
+  .eyebrow {
+    font-family: var(--font-sans);
+    font-size: 12px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--color-ember);
+    font-weight: 600;
+  }
+  .eyebrow-gold {
+    font-family: var(--font-sans);
+    font-size: 12px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--color-gold);
+    font-weight: 600;
+  }
+  .eyebrow-mute {
+    font-family: var(--font-sans);
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--color-bone-mute);
+    font-weight: 500;
+  }
+
+  .btn-ember {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.625rem;
+    padding: 1rem 1.9rem;
+    background: var(--color-ember);
+    color: var(--color-coal);
+    font-family: var(--font-sans);
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    border: 1px solid var(--color-ember);
+    transition: all 0.25s ease;
+  }
+  .btn-ember:hover {
+    background: var(--color-ember-soft);
+    border-color: var(--color-ember-soft);
+    transform: translateY(-1px);
+  }
+
+  .btn-ghost {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.625rem;
+    padding: 1rem 1.9rem;
+    background: transparent;
+    color: var(--color-bone);
+    font-family: var(--font-sans);
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    border: 1px solid var(--color-smoke);
+    transition: all 0.25s ease;
+  }
+  .btn-ghost:hover {
+    border-color: var(--color-ember);
+    color: var(--color-ember);
+  }
+
+  .divider-ember::before {
+    content: "";
+    display: inline-block;
+    width: 40px;
+    height: 1px;
+    background: var(--color-ember);
+    margin-right: 1rem;
+    vertical-align: middle;
+  }
+
+  .sticky-cta {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 40;
+    background: linear-gradient(to top, var(--color-coal) 0%, rgba(11,9,8,0.95) 100%);
+    border-top: 1px solid var(--color-ember);
+    backdrop-filter: blur(8px);
+  }
+
+  .smoke-gradient {
+    background: linear-gradient(
+      135deg,
+      var(--color-coal) 0%,
+      var(--color-coal-2) 50%,
+      var(--color-coal-3) 100%
+    );
+  }
+
+  .ember-glow {
+    box-shadow:
+      0 0 0 1px var(--color-ember),
+      0 8px 40px -12px rgba(232, 102, 27, 0.45);
+  }
+
+  .text-glow {
+    text-shadow: 0 2px 20px rgba(232, 102, 27, 0.25);
+  }
+
+  .hero-vignette::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(
+      ellipse at center,
+      transparent 0%,
+      transparent 40%,
+      rgba(11, 9, 8, 0.6) 75%,
+      var(--color-coal) 100%
+    );
+    pointer-events: none;
+  }
+
+  .grain {
+    position: relative;
+  }
+  .grain::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.04;
+    mix-blend-mode: overlay;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+}
