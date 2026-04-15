@@ -1,0 +1,19 @@
+# Et & Mangal — Usta Rehberi
+
+> Türkiye'nin bağımsız et ve mangal rehberi. Kömür seçiminden et dinlendirmeye, marinasyondan ızgara sıcaklığına kadar usta tavsiyeleri.
+
+## Site
+
+- [Ana Sayfa](https://et-mangal.com/): Rehber özeti ve kategoriler
+- [Mangal Rehberi](https://et-mangal.com/mangal-rehberi): Ateş, et hazırlığı, sıcaklık, dinlendirme
+- [Et Çeşitleri](https://et-mangal.com/et-cesitleri): Dana, kuzu, tavuk ve av eti kesimleri; çekirdek sıcaklık tabloları
+- [Tarifler](https://et-mangal.com/tarifler): Marinad, sos, garnitür ve teknik tarifleri
+- [Günlük (Blog)](https://et-mangal.com/blog): Köz başından denemeler ve saha notları
+- [S.S.S.](https://et-mangal.com/sss): Mangal, et ve pişirme hakkında sık sorulan sorular
+- [İletişim](https://et-mangal.com/iletisim): E-posta ve yazışma kanalları
+
+## İlkeler
+
+- Bağımsız editörlük — sponsorlu içerik kabul edilmez.
+- Her tablo ve öneri köz başında test edilmiş ya da bir ustadan alıntıdır.
+- Reklamsız, bağımsız, usta diliyle.
