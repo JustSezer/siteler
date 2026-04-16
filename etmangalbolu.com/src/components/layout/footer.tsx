@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 
 export default function Footer() {
@@ -43,6 +45,15 @@ export default function Footer() {
               <li><Link href="/gizlilik" className="hover:text-ember transition-colors">Gizlilik</Link></li>
               <li><Link href="/kullanim-sartlari" className="hover:text-ember transition-colors">Kullanım Şartları</Link></li>
               <li><Link href="/cerez-politikasi" className="hover:text-ember transition-colors">Çerez Politikası</Link></li>
+              <li>
+                <button
+                  type="button"
+                  onClick={() => (window as unknown as Record<string, () => void>).__openCookiePreferences?.()}
+                  className="hover:text-ember transition-colors"
+                >
+                  Çerez Tercihleri
+                </button>
+              </li>
               <li><Link href="mailto:editor@etmangalbolu.com" className="hover:text-ember transition-colors">editor@etmangalbolu.com</Link></li>
             </ul>
           </div>

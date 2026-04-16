@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import CookieBanner from "@/components/cookie-consent/cookie-banner";
 import { Playfair_Display, Lora, Inter } from "next/font/google";
 import "./globals.css";
 import { site } from "@/lib/site";
@@ -90,6 +91,7 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col bg-paper text-ink">
         {children}
+        <CookieBanner />
       </body>
     </html>
   );

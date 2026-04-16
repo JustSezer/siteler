@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 import { nav, site } from "@/lib/site";
 
@@ -53,6 +55,23 @@ export default function Footer() {
               >
                 Gizlilik
               </Link>
+            </li>
+            <li>
+              <Link
+                href="/cerez-politikasi"
+                className="text-[15px] text-ink-soft hover:text-ember transition-colors"
+              >
+                Çerez Politikası
+              </Link>
+            </li>
+            <li>
+              <button
+                type="button"
+                onClick={() => (window as unknown as Record<string, () => void>).__openCookiePreferences?.()}
+                className="text-[15px] text-ink-soft hover:text-ember transition-colors"
+              >
+                Çerez Tercihleri
+              </button>
             </li>
           </ul>
         </div>

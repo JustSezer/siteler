@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import CookieBanner from "@/components/cookie-consent/cookie-banner";
 import { Fraunces, Source_Serif_4, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -85,6 +86,7 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col bg-paper text-ink">
         {children}
+        <CookieBanner />
       </body>
     </html>
   );

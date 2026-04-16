@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 import { MapPin, Phone, Mail, Clock, ExternalLink } from "lucide-react";
 import { nav, site } from "@/lib/site";
@@ -32,6 +34,25 @@ export default function Footer() {
                 </Link>
               </li>
             ))}
+            <li className="pt-2 border-t border-smoke mt-2">
+              <Link href="/gizlilik" className="text-[14px] text-bone-soft hover:text-ember transition-colors">
+                Gizlilik
+              </Link>
+            </li>
+            <li>
+              <Link href="/cerez-politikasi" className="text-[14px] text-bone-soft hover:text-ember transition-colors">
+                Çerez Politikası
+              </Link>
+            </li>
+            <li>
+              <button
+                type="button"
+                onClick={() => (window as unknown as Record<string, () => void>).__openCookiePreferences?.()}
+                className="text-[14px] text-bone-soft hover:text-ember transition-colors"
+              >
+                Çerez Tercihleri
+              </button>
+            </li>
           </ul>
         </div>
 
