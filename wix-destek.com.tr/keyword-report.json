@@ -1,0 +1,214 @@
+{
+  "project": "wix-destek.com.tr",
+  "industry": "wix platform support services",
+  "target_market": "Turkey",
+  "target_language": "tr",
+  "analysis_date": "2026-04-17",
+
+  "primary_keywords": [
+    { "keyword": "wix destek", "search_volume": "high", "competition": "medium", "intent": "commercial", "target_page": "/", "variations": ["wix destek hattı", "wix destek hizmeti", "wix teknik destek", "wix destek türkiye"] },
+    { "keyword": "wix türkçe destek", "search_volume": "high", "competition": "low", "intent": "commercial", "target_page": "/", "variations": ["wix türkçe yardım", "wix türkçe destek hattı", "wix türkiye destek"] },
+    { "keyword": "wix yardım", "search_volume": "high", "competition": "medium", "intent": "informational-commercial", "target_page": "/", "variations": ["wix yardım hattı", "wix yardım servisi"] },
+    { "keyword": "wix uzmanı", "search_volume": "medium", "competition": "low", "intent": "commercial", "target_page": "/", "variations": ["wix uzman desteği", "wix uzman danışman", "türkiye wix uzmanı"] },
+    { "keyword": "wix danışmanlık", "search_volume": "medium", "competition": "low", "intent": "commercial", "target_page": "/hizmetler", "variations": ["wix danışmanlık hizmeti", "wix danışman"] },
+    { "keyword": "wix hizmeti", "search_volume": "medium", "competition": "medium", "intent": "commercial", "target_page": "/hizmetler", "variations": ["wix hizmetleri", "wix profesyonel hizmet"] },
+    { "keyword": "wix site kurulumu", "search_volume": "high", "competition": "medium", "intent": "commercial", "target_page": "/hizmetler/wix-site-kurulumu", "variations": ["wix sitesi kurma", "wix site kurma", "wix site kurulumu fiyatı"] },
+    { "keyword": "wix tasarım", "search_volume": "high", "competition": "high", "intent": "commercial-investigation", "target_page": "/hizmetler/wix-tasarim-duzenleme", "variations": ["wix tasarımı", "wix site tasarımı", "wix tasarım düzenleme"] },
+    { "keyword": "wix seo", "search_volume": "high", "competition": "medium", "intent": "commercial-investigation", "target_page": "/hizmetler/wix-seo", "variations": ["wix seo ayarları", "wix seo optimizasyonu", "wix seo hizmeti"] },
+    { "keyword": "wix domain bağlama", "search_volume": "medium", "competition": "low", "intent": "informational-commercial", "target_page": "/hizmetler/wix-domain-baglama", "variations": ["wix alan adı bağlama", "wix domain ekleme", "wix domain yönlendirme"] },
+    { "keyword": "wix e-ticaret", "search_volume": "high", "competition": "medium", "intent": "commercial", "target_page": "/hizmetler/wix-e-ticaret", "variations": ["wix eticaret", "wix alışveriş sitesi", "wix online mağaza"] },
+    { "keyword": "wix hata giderme", "search_volume": "medium", "competition": "low", "intent": "informational-commercial", "target_page": "/hizmetler/wix-hata-giderme", "variations": ["wix hata çözme", "wix sorun giderme"] },
+    { "keyword": "wix eğitim", "search_volume": "medium", "competition": "low", "intent": "commercial", "target_page": "/hizmetler/wix-egitim", "variations": ["wix eğitimi", "wix dersleri", "wix birebir eğitim"] }
+  ],
+
+  "secondary_keywords": [
+    { "keyword": "wix site kurulumu fiyat", "intent": "commercial", "target_page": "/hizmetler/wix-site-kurulumu" },
+    { "keyword": "wix site kurulum ücreti", "intent": "commercial", "target_page": "/fiyatlar" },
+    { "keyword": "wix tasarım yardım", "intent": "commercial", "target_page": "/hizmetler/wix-tasarim-duzenleme" },
+    { "keyword": "wix tema değiştirme", "intent": "informational", "target_page": "/hizmetler/wix-tasarim-duzenleme" },
+    { "keyword": "wix seo ayarları", "intent": "informational", "target_page": "/hizmetler/wix-seo" },
+    { "keyword": "wix google sıralama", "intent": "informational-commercial", "target_page": "/hizmetler/wix-seo" },
+    { "keyword": "wix domain bağlama hatası", "intent": "informational-commercial", "target_page": "/hizmetler/wix-domain-baglama" },
+    { "keyword": "wix godaddy domain bağlama", "intent": "informational", "target_page": "/hizmetler/wix-domain-baglama" },
+    { "keyword": "wix natro domain bağlama", "intent": "informational", "target_page": "/hizmetler/wix-domain-baglama" },
+    { "keyword": "wix e-ticaret kurulumu", "intent": "commercial", "target_page": "/hizmetler/wix-e-ticaret" },
+    { "keyword": "wix alışveriş sitesi kurma", "intent": "commercial", "target_page": "/hizmetler/wix-e-ticaret" },
+    { "keyword": "wix ödeme sistemi", "intent": "informational-commercial", "target_page": "/hizmetler/wix-e-ticaret" },
+    { "keyword": "wix iyzico entegrasyonu", "intent": "informational-commercial", "target_page": "/hizmetler/wix-e-ticaret" },
+    { "keyword": "wix sitesi yayınlanmıyor", "intent": "informational-commercial", "target_page": "/hizmetler/wix-hata-giderme" },
+    { "keyword": "wix türkçe yapma", "intent": "informational", "target_page": "/hizmetler/wix-egitim" },
+    { "keyword": "wix kullanımı", "intent": "informational", "target_page": "/hizmetler/wix-egitim" },
+    { "keyword": "wix birebir ders", "intent": "commercial", "target_page": "/hizmetler/wix-egitim" }
+  ],
+
+  "long_tail_keywords": [
+    { "keyword": "wix sitem yayınlanmıyor ne yapmalıyım", "target_page": "/blog/wix-sitesi-yayinlanmiyor-cozum" },
+    { "keyword": "wix custom domain dns ayarları", "target_page": "/blog/wix-domain-dns-ayarlari-rehberi" },
+    { "keyword": "wix mi wordpress mi daha iyi", "target_page": "/blog/wix-mi-wordpress-mi-karsilastirma" },
+    { "keyword": "wix mi shopify mi e-ticaret", "target_page": "/blog/wix-mi-shopify-mi-karsilastirma" },
+    { "keyword": "wix iyzico entegrasyonu", "target_page": "/blog/wix-iyzico-entegrasyonu-rehberi" },
+    { "keyword": "wix seo rehberi 2026", "target_page": "/blog/wix-seo-rehberi-2026" },
+    { "keyword": "wix türkçe yapma rehberi", "target_page": "/blog/wix-turkce-yapma-rehberi" },
+    { "keyword": "wix site hızlandırma", "target_page": "/blog/wix-site-hizlandirma-rehberi" },
+    { "keyword": "wix search console bağlama", "target_page": "/blog/wix-search-console-baglama" },
+    { "keyword": "wix fiyatları türkiye 2026", "target_page": "/blog/wix-fiyatlari-turkiye-2026" },
+    { "keyword": "wix portföy sitesi kurma", "target_page": "/blog/wix-portfoy-sitesi-kurma" },
+    { "keyword": "wix randevu sistemi kurma", "target_page": "/blog/wix-randevu-sistemi-kurulumu" }
+  ],
+
+  "question_keywords": [
+    { "question": "Wix Türkçe destek var mı?", "target_page": "/sss" },
+    { "question": "Wix Türkçe nasıl yapılır?", "target_page": "/sss" },
+    { "question": "Wix'te site kurmak ne kadar sürer?", "target_page": "/sss" },
+    { "question": "Wix site kurulumu fiyatları ne kadar?", "target_page": "/fiyatlar" },
+    { "question": "Wix mi WordPress mi daha iyi?", "target_page": "/blog/wix-mi-wordpress-mi-karsilastirma" },
+    { "question": "Wix mi Shopify mi e-ticaret için?", "target_page": "/blog/wix-mi-shopify-mi-karsilastirma" },
+    { "question": "Wix'e domain nasıl bağlanır?", "target_page": "/sss" },
+    { "question": "Wix SEO iyi mi?", "target_page": "/sss" },
+    { "question": "Wix hangi ödeme sistemlerini destekliyor?", "target_page": "/sss" },
+    { "question": "Wix iyzico destekliyor mu?", "target_page": "/sss" },
+    { "question": "Wix sitemi neden yayınlayamıyorum?", "target_page": "/sss" },
+    { "question": "Wix ücretsiz mi?", "target_page": "/sss" },
+    { "question": "Wix'te nasıl blog açılır?", "target_page": "/sss" },
+    { "question": "Wix sitesi Google'da çıkmıyor ne yapmalıyım?", "target_page": "/sss" },
+    { "question": "Wix premium plan iptal edilir mi?", "target_page": "/sss" },
+    { "question": "Wix sitesi mobil uyumlu mu?", "target_page": "/sss" },
+    { "question": "Wix sitesini başka platforma taşıyabilir miyim?", "target_page": "/sss" },
+    { "question": "Wix sitesi güvenli mi?", "target_page": "/sss" }
+  ],
+
+  "keyword_map": {
+    "/": {
+      "primary": "wix destek",
+      "secondary": ["wix türkçe destek", "wix uzmanı", "wix yardım"],
+      "meta_title": "Wix Destek — Türkçe Wix Uzmanından Profesyonel Yardım",
+      "meta_description": "Wix sitenizle ilgili her soruna Türkçe profesyonel destek. Site kurulumu, tasarım, SEO, domain ve e-ticaret hizmetleri. 24 saat içinde yanıt, şeffaf fiyatlandırma.",
+      "h1": "Wix İçin Türkçe Profesyonel Destek"
+    },
+    "/hizmetler": {
+      "primary": "wix hizmeti",
+      "secondary": ["wix danışmanlık", "wix destek hizmeti"],
+      "meta_title": "Wix Hizmetleri — Kurulum, Tasarım, SEO, E-Ticaret",
+      "meta_description": "Wix platformunda ihtiyacınız olan tüm profesyonel hizmetler tek çatı altında. Site kurulumu, tasarım düzenleme, SEO, domain bağlama, e-ticaret ve birebir eğitim.",
+      "h1": "Wix Hizmetlerimiz"
+    },
+    "/hizmetler/wix-site-kurulumu": {
+      "primary": "wix site kurulumu",
+      "secondary": ["wix sitesi kurma", "wix site kurulumu fiyat"],
+      "meta_title": "Wix Site Kurulumu — Sıfırdan Profesyonel Web Sitesi",
+      "meta_description": "İşinize özel Wix site kurulumu. Tema seçimi, sayfalar, form, SEO başlangıç ayarları dahil anahtar teslim hizmet. Teklif için iletişime geçin.",
+      "h1": "Wix Site Kurulumu — Anahtar Teslim Hizmet"
+    },
+    "/hizmetler/wix-tasarim-duzenleme": {
+      "primary": "wix tasarım düzenleme",
+      "secondary": ["wix tasarım yardım", "wix tema değiştirme"],
+      "meta_title": "Wix Tasarım Düzenleme — Modern Arayüz Yenileme",
+      "meta_description": "Mevcut Wix sitenizin tasarımını modernleştirin. Renk, tipografi, mobil uyum ve marka kimliğine uygun tasarım düzenlemesi.",
+      "h1": "Wix Tasarım Düzenleme ve Yenileme"
+    },
+    "/hizmetler/wix-seo": {
+      "primary": "wix seo",
+      "secondary": ["wix seo ayarları", "wix google sıralama"],
+      "meta_title": "Wix SEO Hizmeti — Google'da Üst Sıralara Çıkın",
+      "meta_description": "Wix siteniz için teknik ve içerik SEO. Anahtar kelime, meta tag, site hızı, sitemap ve Search Console kurulumu. Ölçülebilir sıralama artışı.",
+      "h1": "Wix SEO — Google'da Görünür Olun"
+    },
+    "/hizmetler/wix-domain-baglama": {
+      "primary": "wix domain bağlama",
+      "secondary": ["wix godaddy domain bağlama", "wix custom domain dns ayarları"],
+      "meta_title": "Wix Domain Bağlama — DNS Ayarları ve Yönlendirme",
+      "meta_description": "Özel alan adınızı Wix sitenize sorunsuz bağlayın. GoDaddy, Natro, İsimTescil dahil tüm sağlayıcılarla uyumlu DNS kurulumu.",
+      "h1": "Wix Domain Bağlama ve DNS Kurulumu"
+    },
+    "/hizmetler/wix-e-ticaret": {
+      "primary": "wix e-ticaret",
+      "secondary": ["wix e-ticaret kurulumu", "wix iyzico entegrasyonu"],
+      "meta_title": "Wix E-Ticaret Kurulumu — Satışa Hazır Online Mağaza",
+      "meta_description": "Wix Stores ile profesyonel e-ticaret sitesi kurulumu. iyzico, kargo, KDV, stok yönetimi entegre. Türkiye'ye özel yapılandırma.",
+      "h1": "Wix E-Ticaret Kurulumu — Türkiye'ye Özel"
+    },
+    "/hizmetler/wix-hata-giderme": {
+      "primary": "wix hata giderme",
+      "secondary": ["wix sitesi yayınlanmıyor", "wix editör çökmesi"],
+      "meta_title": "Wix Hata Giderme — Acil Destek ve Sorun Çözümü",
+      "meta_description": "Wix editörü açılmıyor, site yayınlanmıyor, ödeme sorunu mu? Aynı gün acil destek ile problemlerinize kalıcı çözüm.",
+      "h1": "Wix Acil Destek ve Hata Giderme"
+    },
+    "/hizmetler/wix-egitim": {
+      "primary": "wix eğitim",
+      "secondary": ["wix birebir ders", "wix kullanımı"],
+      "meta_title": "Wix Eğitimi — Birebir Türkçe Kişisel Ders",
+      "meta_description": "Wix'i kendiniz kullanmak ister misiniz? Sıfırdan ileri seviyeye birebir Türkçe eğitim. Ekran paylaşımıyla kişisel ders, özel müfredat.",
+      "h1": "Wix Birebir Eğitim ve Kişisel Ders"
+    },
+    "/fiyatlar": {
+      "primary": "wix hizmet fiyatları",
+      "secondary": ["wix site kurulum ücreti", "wix destek paketi"],
+      "meta_title": "Fiyatlar — Wix Hizmet Paketleri ve Ücretler",
+      "meta_description": "Wix site kurulumu, tasarım, SEO, e-ticaret hizmetlerinin şeffaf fiyatları. Tek seferlik ve aylık destek paketleri. Ek ücret yok, net teklif.",
+      "h1": "Hizmet Paketleri ve Fiyatlar"
+    },
+    "/sss": {
+      "primary": "wix sık sorulan sorular",
+      "secondary": ["wix türkçe destek var mı", "wix site kurmak ne kadar sürer"],
+      "meta_title": "Sık Sorulan Sorular — Wix Destek SSS",
+      "meta_description": "Wix Türkçe destek, fiyatlar, süreler, ödeme yöntemleri ve teknik sorular hakkında en çok merak edilenlerin yanıtları.",
+      "h1": "Sıkça Sorulan Sorular"
+    },
+    "/blog": {
+      "primary": "wix blog rehberleri",
+      "secondary": ["wix nasıl kullanılır", "wix ipuçları"],
+      "meta_title": "Wix Blog — Rehberler, İpuçları ve Çözümler",
+      "meta_description": "Wix kullanıcıları için Türkçe rehberler, sorun çözümleri ve SEO ipuçları. Günlük işinizi kolaylaştıracak pratik bilgiler.",
+      "h1": "Wix Blog — Rehberler ve Çözümler"
+    },
+    "/iletisim": {
+      "primary": "wix destek iletişim",
+      "secondary": ["wix whatsapp destek", "wix destek hattı"],
+      "meta_title": "İletişim — Wix Destek Ekibine Ulaşın",
+      "meta_description": "Wix ile ilgili sorularınız için iletişim formu veya WhatsApp üzerinden hızlı yanıt. 24 saat içinde dönüş.",
+      "h1": "Bize Ulaşın"
+    },
+    "/hakkimizda": {
+      "primary": "wix uzmanı kimdir",
+      "secondary": ["wix türkçe destek ekibi", "wix danışman"],
+      "meta_title": "Hakkımızda — Türkiye'nin Wix Destek Ekibi",
+      "meta_description": "Yıllardır Wix platformunda yüzlerce siteyi hayata geçiren deneyimli ekip. Şeffaf, Türkçe ve hızlı hizmet anlayışımızla tanışın.",
+      "h1": "Biz Kimiz?"
+    }
+  },
+
+  "blog_topic_seeds": [
+    { "topic": "2026'da Wix Türkiye Fiyatları ve Paket Karşılaştırması", "slug": "wix-fiyatlari-turkiye-2026", "target_keyword": "wix fiyatları türkiye" },
+    { "topic": "Wix mi WordPress mi? 2026 İçin Dürüst Karşılaştırma", "slug": "wix-mi-wordpress-mi-karsilastirma", "target_keyword": "wix mi wordpress mi" },
+    { "topic": "Wix Sitem Yayınlanmıyor: 9 Olası Sebep ve Hızlı Çözümler", "slug": "wix-sitesi-yayinlanmiyor-cozum", "target_keyword": "wix sitem yayınlanmıyor" },
+    { "topic": "Wix'e Domain Nasıl Bağlanır? Adım Adım Rehber", "slug": "wix-domain-dns-ayarlari-rehberi", "target_keyword": "wix domain bağlama" },
+    { "topic": "Wix SEO Rehberi 2026: Google'da Üst Sıralara Çıkmak", "slug": "wix-seo-rehberi-2026", "target_keyword": "wix seo ayarları" },
+    { "topic": "Wix'te iyzico ile Türkiye'den Satış Yapmanın Tüm Yolları", "slug": "wix-iyzico-entegrasyonu-rehberi", "target_keyword": "wix iyzico entegrasyonu" },
+    { "topic": "Wix'i Türkçe Yapmak: Arayüz Dili ve Site İçeriği", "slug": "wix-turkce-yapma-rehberi", "target_keyword": "wix türkçe yapma" },
+    { "topic": "Wix Site Hızlandırma: Core Web Vitals İçin 12 Adım", "slug": "wix-site-hizlandirma-rehberi", "target_keyword": "wix site hızlandırma" }
+  ],
+
+  "local_seo": {
+    "relevance": "low-medium",
+    "recommendation": "Dedicated şehir sayfaları açma. Ana sayfa hero ve /hakkimizda'da 'Türkiye genelinde uzaktan hizmet' mesajı + ProfessionalService Schema yeterli. 3-6 ay sonra trafik sinyaliyle istanbul/ankara landing değerlendirilebilir.",
+    "mentions": ["türkiye wix destek", "istanbul wix destek", "ankara wix uzmanı", "online wix danışmanlık türkiye"]
+  },
+
+  "content_gaps": [
+    "Türkçe güncel (2026) Wix SEO rehberi yok — mevcut içerikler 2020-2022",
+    "Wix + iyzico entegrasyonu için Türkçe derin teknik rehber yok",
+    "Türk ödeme sağlayıcıları (Natro, İsimTescil) için adım adım Wix domain rehberleri yok",
+    "Wix sorun giderme için Türkçe senaryo bazlı troubleshoot checklistleri yok",
+    "Wix birebir Türkçe eğitim veren tanıdık tek marka yok",
+    "Türkiye'deki küçük işletmeler için Wix vs WordPress vs Shopify karar rehberi yok",
+    "Wix sektör bazlı şablon rehberleri (restoran, kuaför, klinik, portföy) eksik"
+  ],
+
+  "intent_distribution_summary": {
+    "strategy": "Commercial ağırlıklı portfolio (lead-gen modeli). Informational-commercial blogdan hizmet sayfasına köprü. Her anahtar kelime en az bir sayfaya bağlı — orphan yok.",
+    "primary_target_pages": 14,
+    "total_keywords": "~100+",
+    "pillar_pages": ["Wix Türkçe Destek Rehberi (hub)", "Wix SEO Rehberi 2026", "Wix E-Ticaret Kurulum Rehberi"]
+  }
+}

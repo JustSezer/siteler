@@ -1,0 +1,195 @@
+{
+  "brand": {
+    "name": "Wix Destek TR",
+    "tagline_candidates": [
+      "Wix sitenizi birlikte toparlayalım",
+      "Wix'te takıldıysanız, biz buradayız",
+      "Türkçe, hızlı ve net Wix desteği",
+      "Sorununuzu anlatın, çözümü bize bırakın",
+      "Wix'in Türkçe yardım hattı"
+    ],
+    "tagline": "Wix sitenizi birlikte toparlayalım",
+    "mission": "Türkiye'deki küçük işletme sahiplerinin ve girişimcilerin Wix platformunda yaşadığı her türlü takılmayı; sade bir dille, hızlı ve güvenilir biçimde çözmek.",
+    "vision": "Wix kullanan her Türk kullanıcının ilk aklına gelen, 'aradığımda cevap veren' Türkçe uzman destek adresi olmak.",
+    "value_proposition": "İngilizce dokümanlarda boğulmadan, pahalı ajanslara mahkum olmadan, telefonun karşısında sizi dinleyen Türkçe konuşan bir Wix uzmanıyla 24 saat içinde çözüme kavuşun."
+  },
+  "personality": {
+    "traits": [
+      "güvenilir",
+      "net-konuşan",
+      "hızlı-yanıt-veren",
+      "teknik-olarak-keskin",
+      "empatik"
+    ],
+    "tone_of_voice": {
+      "primary": "Sakin uzman: 'Panik yapmayın, bu çözülür' diyen tecrübeli arkadaş tonu.",
+      "secondary": "Yönlendirici öğretmen: adım adım, sabırlı, terimleri Türkçeleştirerek anlatan.",
+      "avoid": "Kurumsal jargon, satış baskısı, ağır teknik terimler, küçümseyici açıklamalar, aşırı samimi / argo dil."
+    },
+    "communication_style": {
+      "formality": "semi-formal (siz dili, ama mesafeli değil)",
+      "humor": "yok denecek kadar az; gerilimi almak için yumuşak bir cümle yeterli",
+      "emoji_usage": "minimum; yalnızca mesaj baloncuğu veya onay tiki gibi fonksiyonel bağlamda",
+      "sentence_length": "kısa-orta (12-20 kelime); her fikir kendi cümlesinde"
+    }
+  },
+  "visual_identity": {
+    "colors": {
+      "background": { "hex": "#FFFFFF", "hsl": "0 0% 100%", "usage": "Sayfa arka planı, ana tuval", "psychology": "Netlik, temizlik, zihinsel rahatlama" },
+      "surface": { "hex": "#F6F8FB", "hsl": "214 30% 97%", "usage": "Kart arka planları, bölüm arkaplan varyasyonları", "psychology": "Yumuşak hiyerarşi, göz yormayan ayrım" },
+      "surface-elevated": { "hex": "#FFFFFF", "hsl": "0 0% 100%", "usage": "Form kartları, modal, üstte duran bileşenler (gölge ile ayrılır)", "psychology": "Odak, güven, 'burada işin olur' sinyali" },
+      "border": { "hex": "#E3E8EF", "hsl": "214 22% 91%", "usage": "Girdi çerçevesi, kart kenarı, ayırıcı çizgiler", "psychology": "Sessiz düzen, görsel organizasyon" },
+      "border-strong": { "hex": "#C7D0DB", "hsl": "214 19% 82%", "usage": "Hover / focus öncesi vurgulu çerçeve, tablo çizgileri", "psychology": "Net sınır, dikkat çekmeden güçlü" },
+      "text-primary": { "hex": "#0F172A", "hsl": "222 47% 11%", "usage": "Başlıklar, ana gövde metni", "psychology": "Otorite, okunabilirlik, ciddiyet" },
+      "text-secondary": { "hex": "#334155", "hsl": "215 25% 27%", "usage": "Alt başlıklar, açıklama metinleri", "psychology": "Bilgilendirici, destekleyici ton" },
+      "text-muted": { "hex": "#64748B", "hsl": "215 16% 47%", "usage": "Yardım metni, placeholder, meta bilgi", "psychology": "Geri planda bilgi, baskın olmayan yardım" },
+      "primary": { "hex": "#0B1F3A", "hsl": "215 68% 14%", "usage": "Marka rengi, header, ikincil buton, logotype, önemli alan zeminleri", "psychology": "Derin güven, profesyonellik, 'işini bilen uzman'" },
+      "primary-foreground": { "hex": "#FFFFFF", "hsl": "0 0% 100%", "usage": "Lacivert zemin üzerindeki metin ve ikonlar", "psychology": "Maksimum kontrast, okunabilirlik" },
+      "accent": { "hex": "#FF6B35", "hsl": "16 100% 60%", "usage": "Birincil CTA butonları, aciliyet vurguları, link hover", "psychology": "Sıcaklık, eylem çağrısı, aciliyet ama dostane" },
+      "accent-foreground": { "hex": "#FFFFFF", "hsl": "0 0% 100%", "usage": "Turuncu CTA üzerindeki metin", "psychology": "Net, cesur, harekete geçirici" },
+      "accent-hover": { "hex": "#E85A27", "hsl": "15 80% 53%", "usage": "Accent butonun hover/pressed hali", "psychology": "Dokunulabilir geri bildirim" },
+      "success": { "hex": "#16A34A", "hsl": "142 72% 36%", "usage": "Form gönderildi, onay mesajları, 'yanıt alındı' bildirimleri", "psychology": "Rahatlama, 'tamamdır' hissi" },
+      "warning": { "hex": "#F59E0B", "hsl": "38 92% 50%", "usage": "Uyarı bandı, dikkat çekilmesi gereken notlar", "psychology": "Dikkat, ama tehlike değil" },
+      "destructive": { "hex": "#DC2626", "hsl": "0 72% 51%", "usage": "Hata mesajları, form validasyon uyarıları", "psychology": "Net hata sinyali, düzeltme çağrısı" },
+      "muted": { "hex": "#EEF2F7", "hsl": "214 33% 95%", "usage": "Pasif buton zemini, arka plan dolgu alanları, alıntılı bloklar", "psychology": "Sessiz, arka planda kalan alan" },
+      "focus-ring": { "hex": "#FF6B35", "hsl": "16 100% 60%", "usage": "Klavye ile odaklanan eleman çerçevesi (a11y)", "psychology": "Görünür erişilebilirlik, net konum" }
+    },
+    "typography": {
+      "heading": { "family": "Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif", "weights": [600, 700, 800], "style": "Clean, geometrik, modern ama ciddi" },
+      "body": { "family": "Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif", "weights": [400, 500, 600], "style": "Yüksek okunabilirlik, sakin ritm" },
+      "mono": { "family": "'JetBrains Mono', ui-monospace, 'Courier New', monospace", "usage": "Kod örnekleri, domain adı / DNS kayıt örnekleri" },
+      "scale": {
+        "display": { "font-size": "3.75rem", "line-height": "1.05", "font-weight": 800, "letter-spacing": "-0.02em" },
+        "h1": { "font-size": "3rem", "line-height": "1.1", "font-weight": 700, "letter-spacing": "-0.02em" },
+        "h2": { "font-size": "2.25rem", "line-height": "1.2", "font-weight": 700, "letter-spacing": "-0.015em" },
+        "h3": { "font-size": "1.75rem", "line-height": "1.3", "font-weight": 600, "letter-spacing": "-0.01em" },
+        "h4": { "font-size": "1.375rem", "line-height": "1.35", "font-weight": 600, "letter-spacing": "-0.005em" },
+        "body-lg": { "font-size": "1.125rem", "line-height": "1.65", "font-weight": 400, "letter-spacing": "0" },
+        "body": { "font-size": "1rem", "line-height": "1.65", "font-weight": 400, "letter-spacing": "0" },
+        "body-sm": { "font-size": "0.9375rem", "line-height": "1.55", "font-weight": 400, "letter-spacing": "0" },
+        "caption": { "font-size": "0.8125rem", "line-height": "1.45", "font-weight": 500, "letter-spacing": "0.01em" }
+      }
+    },
+    "spacing": {
+      "feel": "Ferah ama israfsız; form ve açıklama arası net nefes",
+      "section_gap": "96px (mobil 64px)",
+      "component_gap": "32px (mobil 24px)",
+      "scale": { "0": "0rem", "1": "0.25rem", "2": "0.5rem", "3": "0.75rem", "4": "1rem", "6": "1.5rem", "8": "2rem", "12": "3rem", "16": "4rem", "24": "6rem" }
+    },
+    "radius": {
+      "radius-sm": "6px",
+      "radius-md": "12px",
+      "radius-lg": "18px",
+      "radius-full": "9999px",
+      "default": "radius-md"
+    },
+    "shadows": {
+      "shadow-sm": "0 1px 2px 0 rgba(11, 31, 58, 0.06)",
+      "shadow-md": "0 4px 12px -2px rgba(11, 31, 58, 0.10), 0 2px 4px -2px rgba(11, 31, 58, 0.06)",
+      "shadow-lg": "0 16px 32px -8px rgba(11, 31, 58, 0.14), 0 6px 12px -6px rgba(11, 31, 58, 0.08)",
+      "shadow-focus": "0 0 0 3px rgba(255, 107, 53, 0.35)"
+    },
+    "imagery": {
+      "style": "Temiz ekran görünümleri (dashboard görseli, Wix editor örnekleri), soft gradient arka planlı UI illüstrasyonları, Türk küçük işletme sahnelerinden doğal fotoğraflar.",
+      "avoid": "Sahte gülümsemeli kurumsal stok fotoğrafları, 3D zıpır karakterler, aşırı parlak gradyan posterler, teknoloji klişesi 'matrix kodu' görseller.",
+      "icons": "Lucide icon seti, 1.5px stroke, yuvarlak uç; icon renkleri text-secondary veya accent. Dolu icon sadece durum bildirimlerinde."
+    }
+  },
+  "cta_styles": {
+    "primary": {
+      "description": "Ana dönüşüm butonu — form gönderimi, WhatsApp'a git, hemen iletişim.",
+      "bg": "#FF6B35", "fg": "#FFFFFF", "border": "1px solid transparent", "radius": "12px",
+      "padding": "14px 22px", "font-weight": 600,
+      "hover": { "bg": "#E85A27", "transform": "translateY(-1px)", "shadow": "shadow-md" },
+      "focus": { "outline": "none", "box-shadow": "0 0 0 3px rgba(255, 107, 53, 0.35)" },
+      "active": { "bg": "#CC4E21", "transform": "translateY(0)" },
+      "disabled": { "bg": "#F5D0C1", "fg": "#FFFFFF", "cursor": "not-allowed" }
+    },
+    "secondary": {
+      "description": "İkincil eylem — 'Hizmetleri gör', 'Örnek çalışmalar', 'Ücretsiz ön görüşme'.",
+      "bg": "transparent", "fg": "#0B1F3A", "border": "1.5px solid #0B1F3A", "radius": "12px",
+      "padding": "12.5px 22px", "font-weight": 600,
+      "hover": { "bg": "#0B1F3A", "fg": "#FFFFFF", "border": "1.5px solid #0B1F3A" },
+      "focus": { "outline": "none", "box-shadow": "0 0 0 3px rgba(11, 31, 58, 0.25)" },
+      "active": { "bg": "#08172B", "fg": "#FFFFFF" }
+    },
+    "tertiary": {
+      "description": "Link benzeri, ok işaretli metin CTA — 'Detaylı oku', 'SSS'ye git'.",
+      "bg": "transparent", "fg": "#0B1F3A", "border": "none", "padding": "4px 0", "font-weight": 600,
+      "icon": "ArrowRight (Lucide), 16px, margin-left 6px",
+      "hover": { "fg": "#FF6B35", "icon-transform": "translateX(3px)", "text-decoration": "underline", "text-underline-offset": "4px" },
+      "focus": { "outline": "none", "box-shadow": "0 0 0 3px rgba(255, 107, 53, 0.35)", "border-radius": "4px" }
+    }
+  },
+  "content_guidelines": {
+    "headline_style": "Sorunu isimlendir + çözümü ima et. Aktif fiil, 8 kelimeyi aşma, 'siz' dili, korkutma.",
+    "body_style": "Kısa paragraflar (2-3 cümle). Terimi kullandıysanız parantez içinde Türkçesini ver. Her paragraf tek fikir.",
+    "cta_style": "Fiil + fayda + düşük eşik. 'Ücretsiz ön görüşme al', 'Sorununuzu anlatın', 'Hemen yardım al'.",
+    "words_to_use": ["çözüm", "yardım", "destek", "hızlı", "güvenilir", "Türkçe", "uzman", "adım adım", "net fiyat", "yanıt"],
+    "words_to_avoid": [
+      { "word": "ucuz", "reason": "Kaliteli değil algısı yaratır; 'uygun fiyat' tercih edilir." },
+      { "word": "garanti", "reason": "Yasal taahhüt yükler; kullanmaktan kaçın." },
+      { "word": "profesyonel", "reason": "Çok aşınmış kelime; gösterme, ifade et." },
+      { "word": "müthiş", "reason": "Abartılı pazarlama tonu." },
+      { "word": "kolayca", "reason": "Kullanıcıya 'madem kolay neden yapamadın' hissi verir." },
+      { "word": "basit", "reason": "Kullanıcının sorununu küçümsemiş gibi durur." },
+      { "word": "kampanya", "reason": "İndirim-satış tonu." },
+      { "word": "hemen hemen", "reason": "Belirsizlik yaratır." },
+      { "word": "asap", "reason": "İngilizce kısaltma." },
+      { "word": "deneyim", "reason": "Fazla kullanıldı; 'X yıldır' gibi somutlaştır." }
+    ],
+    "examples": [
+      { "bad": "Biz uzman ekibimizle size en profesyonel Wix destek hizmetini sunuyoruz.", "good": "Wix'te takıldığınız noktayı birlikte çözelim. 24 saat içinde geri döneriz." },
+      { "bad": "Sitenizi basitçe hemen düzenleriz, çok kolay!", "good": "Tasarım, SEO ya da domain — ne olursa anlatın, adım adım ilerleyelim." },
+      { "bad": "Hemen satın al ve müthiş fırsatları kaçırma!", "good": "Önce konuşalım, sonra karar verin. Ön görüşme ücretsiz." }
+    ]
+  },
+  "trust_signals": [
+    "24 saat içinde yanıt",
+    "Sabit fiyat, sürpriz ek ücret yok",
+    "Ön görüşme ücretsiz",
+    "Türkçe destek, Türk saatlerinde",
+    "KVKK uyumlu iletişim",
+    "Sadece Wix — dağılmadan uzmanlaşmış destek",
+    "WhatsApp ve e-posta ile doğrudan uzmanla konuşma"
+  ],
+  "logo_concept": {
+    "type": "Text-only logotype (HTML/CSS ile render edilir)",
+    "structure": "İki parçalı yazım: 'Wix Destek' + küçük nokta işareti (dot-mark)",
+    "primary_mark_html_sketch": "<span class='logo'>Wix<span class='logo-dot'>.</span> Destek<span class='logo-tld'>.com.tr</span></span>",
+    "typeface": "Inter",
+    "weights": { "wix": 800, "destek": 600, "tld": 500 },
+    "letter-spacing": "-0.02em",
+    "color_mix": { "wix": "#0B1F3A", "dot": "#FF6B35", "destek": "#0B1F3A", "tld": "#64748B" },
+    "dont": [
+      "Wix'in resmi logosunu veya mavi tonlarını birebir kullanma.",
+      "Degrade / 3D efekt uygulama.",
+      "Harfleri italik yapma.",
+      "Tüm harfleri büyük yazma (TÜM CAPS yasak)."
+    ]
+  },
+  "brand_rules": {
+    "do": [
+      "Her sayfada tek birincil CTA (turuncu) olsun; ikincil eylemler outline stilde kalsın.",
+      "Teknik terim kullanınca parantez içinde Türkçesini açıkla.",
+      "Form ve WhatsApp butonu her uzun sayfada tekrar görünsün (sticky veya ara CTA).",
+      "Fiyat/süre konularında net ol: 'tahminen 2 gün', 'sabit 1.200 TL' gibi.",
+      "Kullanıcıya 'siz' dili ile hitap et; hep sakin ton.",
+      "Lacivert-turuncu kontrastını koru; üçüncü bir marka rengi ekleme.",
+      "Her görselin alt metni gerçek bir açıklama olsun (SEO + a11y).",
+      "Trust signal'ları (yanıt süresi, KVKK, sabit fiyat) her sayfada en az bir kere geçsin."
+    ],
+    "dont": [
+      "Wix'in resmi logosunu, marka rengini veya sloganlarını kopyalama.",
+      "Koyu tema (dark mode) ekleme — kullanıcı panik anında gelir, netlik şart.",
+      "Aynı bölümde 3'ten fazla renk kullanma.",
+      "Gövde metninde TÜMÜ BÜYÜK HARF yazma.",
+      "'Garanti', 'ucuz', 'müthiş' gibi şişirme kelimeler kullanma.",
+      "2'den fazla yazı tipi ailesi kullanma (Inter + mono yeterli).",
+      "Amaçsız animasyon, otomatik slider, parallax abartısı koyma.",
+      "Stok 'kurumsal gülümseyen ekip' fotoğrafı kullanma.",
+      "CTA'yi 'Hemen satın al' gibi satış diliyle yazma.",
+      "Emoji'yi metin içinde süsleme amacıyla kullanma."
+    ]
+  }
+}
