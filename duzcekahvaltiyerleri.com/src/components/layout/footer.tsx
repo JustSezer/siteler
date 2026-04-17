@@ -56,6 +56,7 @@ export default function Footer() {
                 { l: "Gizlilik", h: "/gizlilik" },
                 { l: "Kullanım Şartları", h: "/kullanim-sartlari" },
                 { l: "Çerezler", h: "/cerez-politikasi" },
+                { l: "Erişilebilirlik", h: "/erisilebilirlik" },
               ].map((link) => (
                 <li key={link.h}>
                   <Link href={link.h} className="text-white/50 hover:text-white text-sm transition-colors">

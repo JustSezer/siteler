@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import CookieBanner from "@/components/cookie-consent/cookie-banner";
+import AccessibilityWidget from "@/components/accessibility/accessibility-widget";
 import { Fraunces, Source_Serif_4, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -85,7 +86,9 @@ export default function RootLayout({
       className={`${fraunces.variable} ${sourceSerif.variable} ${jetbrains.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-paper text-ink">
+        <a href="#main-content" className="skip-link">İçeriğe atla</a>
         {children}
+        <AccessibilityWidget />
         <CookieBanner />
       </body>
     </html>

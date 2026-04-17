@@ -118,6 +118,11 @@ export default function Footer() {
                 </a>
               </li>
               <li>
+                <a href="/erisilebilirlik" className="hover:text-white transition-colors">
+                  Erişilebilirlik
+                </a>
+              </li>
+              <li>
                 <button
                   onClick={() => {
                     const fn = (window as unknown as Record<string, () => void>).__openCookiePreferences;

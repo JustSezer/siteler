@@ -65,6 +65,14 @@ export default function Footer() {
               </Link>
             </li>
             <li>
+              <Link
+                href="/erisilebilirlik"
+                className="text-[15px] text-ink-soft hover:text-ember transition-colors"
+              >
+                Erişilebilirlik
+              </Link>
+            </li>
+            <li>
               <button
                 type="button"
                 onClick={() => (window as unknown as Record<string, () => void>).__openCookiePreferences?.()}

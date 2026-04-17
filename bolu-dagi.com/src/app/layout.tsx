@@ -3,6 +3,7 @@ import { Geist } from "next/font/google";
 import "./globals.css";
 import { OrganizationJsonLd } from "@/components/seo/json-ld";
 import CookieBanner from "@/components/cookie-consent/cookie-banner";
+import AccessibilityWidget from "@/components/accessibility/accessibility-widget";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -76,9 +77,11 @@ export default function RootLayout({
   return (
     <html lang="tr" className={`${geistSans.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col">
+        <a href="#main-content" className="skip-link">İçeriğe atla</a>
         <OrganizationJsonLd />
         {children}
         <CookieBanner />
+        <AccessibilityWidget />
       </body>
     </html>
   );

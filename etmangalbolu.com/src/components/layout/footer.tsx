@@ -45,6 +45,7 @@ export default function Footer() {
               <li><Link href="/gizlilik" className="hover:text-ember transition-colors">Gizlilik</Link></li>
               <li><Link href="/kullanim-sartlari" className="hover:text-ember transition-colors">Kullanım Şartları</Link></li>
               <li><Link href="/cerez-politikasi" className="hover:text-ember transition-colors">Çerez Politikası</Link></li>
+              <li><Link href="/erisilebilirlik" className="hover:text-ember transition-colors">Erişilebilirlik</Link></li>
               <li>
                 <button
                   type="button"

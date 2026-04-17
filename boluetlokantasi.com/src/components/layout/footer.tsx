@@ -14,6 +14,7 @@ const links = {
     { label: "Gizlilik", href: "/gizlilik" },
     { label: "Kullanım Şartları", href: "/kullanim-sartlari" },
     { label: "Çerezler", href: "/cerez-politikasi" },
+    { label: "Erişilebilirlik", href: "/erisilebilirlik" },
   ],
 };
 

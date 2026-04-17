@@ -1,49 +1,59 @@
 "use client";
 
 import Link from "next/link";
-import { Mail, MapPin, ExternalLink } from "lucide-react";
+import { Mail, MapPin } from "lucide-react";
+import { site, footerLinks } from "@/lib/site";
 
 export default function Footer() {
   return (
     <footer className="bg-primary-dark text-white">
-      <div className="max-w-[1400px] mx-auto px-6 lg:px-10 py-16">
-        <div className="grid grid-cols-2 lg:grid-cols-12 gap-10 mb-16">
-          {/* Brand - big */}
-          <div className="col-span-2 lg:col-span-5">
-            <Link href="/" className="inline-block mb-5">
-              <span className="font-serif text-3xl font-black leading-none">
-                Düzce<span className="text-secondary italic font-light"> &amp; yemek</span>
+      <div className="max-w-7xl mx-auto px-5 lg:px-8 py-16">
+        <div className="grid grid-cols-2 lg:grid-cols-12 gap-10 mb-14">
+          {/* Brand */}
+          <div className="col-span-2 lg:col-span-4">
+            <Link href="/" className="inline-flex items-center gap-2 mb-5">
+              <span className="w-9 h-9 rounded-xl bg-white/10 flex items-center justify-center text-white font-extrabold text-sm">
+                DY
               </span>
+              <div className="leading-tight">
+                <span className="font-display text-lg font-bold text-white block leading-none">
+                  Duzce&apos;de
+                </span>
+                <span className="text-secondary-light font-bold text-xs tracking-wide">
+                  YEMEK
+                </span>
+              </div>
             </Link>
-            <p className="text-white/50 text-sm leading-relaxed max-w-sm">
-              Yeşilin ve mavinin buluştuğu şehri keşfedin. Düzce gastronomi ve turizm rehberi.
+            <p className="text-white/50 text-sm leading-relaxed max-w-xs mb-6">
+              Duzce&apos;nin yoresel lezzetleri, restoran rehberi ve mutfak
+              hikayeleri — tek adreste. Her tabakta bir hikaye.
             </p>
-            <div className="mt-8 space-y-2">
-              <a href="mailto:info@duzcedeyemek.com" className="flex items-center gap-2 text-white/40 text-sm hover:text-secondary transition-colors">
-                <Mail className="w-3.5 h-3.5" /> info@duzcedeyemek.com
+            <div className="space-y-2">
+              <a
+                href={`mailto:${site.email}`}
+                className="flex items-center gap-2 text-white/40 text-sm hover:text-secondary-light transition-colors"
+              >
+                <Mail className="w-3.5 h-3.5" /> {site.email}
               </a>
               <p className="flex items-center gap-2 text-white/40 text-sm">
-                <MapPin className="w-3.5 h-3.5" /> Düzce, Türkiye
+                <MapPin className="w-3.5 h-3.5" /> {site.location}
               </p>
             </div>
           </div>
 
-          {/* Keşfet */}
+          {/* Kesfet */}
           <div className="lg:col-span-2">
-            <h3 className="text-secondary text-[10px] uppercase tracking-[0.2em] font-medium mb-5">
-              Keşfet
+            <h3 className="text-secondary-light text-xs font-bold uppercase tracking-wider mb-5">
+              Kesfet
             </h3>
             <ul className="space-y-3">
-              {[
-                { l: "Lezzetler", h: "#gastronomi" },
-                { l: "Gezi", h: "#rotalar" },
-                { l: "Mekanlar", h: "#mekanlar" },
-                { l: "Takvim", h: "#takvim" },
-                { l: "Blog", h: "/blog" },
-              ].map((link) => (
-                <li key={link.h}>
-                  <Link href={link.h} className="text-white/50 hover:text-white text-sm transition-colors">
-                    {link.l}
+              {footerLinks.kesfet.map((link) => (
+                <li key={link.href}>
+                  <Link
+                    href={link.href}
+                    className="text-white/50 hover:text-white text-sm transition-colors"
+                  >
+                    {link.label}
                   </Link>
                 </li>
               ))}
@@ -52,55 +62,56 @@ export default function Footer() {
 
           {/* Yasal */}
           <div className="lg:col-span-2">
-            <h3 className="text-secondary text-[10px] uppercase tracking-[0.2em] font-medium mb-5">
+            <h3 className="text-secondary-light text-xs font-bold uppercase tracking-wider mb-5">
               Yasal
             </h3>
             <ul className="space-y-3">
-              {[
-                { l: "Gizlilik", h: "/gizlilik" },
-                { l: "Kullanım Şartları", h: "/kullanim-sartlari" },
-                { l: "Çerezler", h: "/cerez-politikasi" },
-              ].map((link) => (
-                <li key={link.h}>
-                  <Link href={link.h} className="text-white/50 hover:text-white text-sm transition-colors">
-                    {link.l}
+              {footerLinks.yasal.map((link) => (
+                <li key={link.href}>
+                  <Link
+                    href={link.href}
+                    className="text-white/50 hover:text-white text-sm transition-colors"
+                  >
+                    {link.label}
                   </Link>
                 </li>
               ))}
             </ul>
           </div>
 
-          {/* Önerilen */}
-          <div className="lg:col-span-3">
-            <h3 className="text-secondary text-[10px] uppercase tracking-[0.2em] font-medium mb-5">
-              Özel Öneri
+          {/* Populer */}
+          <div className="col-span-2 lg:col-span-4">
+            <h3 className="text-secondary-light text-xs font-bold uppercase tracking-wider mb-5">
+              Populer Yazilar
             </h3>
-            <a
-              href="https://ibrahiminyerinden.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group block"
-            >
-              <p className="font-serif text-xl font-bold text-white group-hover:text-secondary transition-colors flex items-center gap-2">
-                İbrahim&apos;in Yeri
-                <ExternalLink className="w-3.5 h-3.5 opacity-0 group-hover:opacity-100 transition-opacity" />
-              </p>
-              <p className="text-white/40 text-xs mt-1">
-                Bolu Dağı Bakacak &middot; 7/24 Açık
-              </p>
-              <p className="text-white/30 text-xs mt-2 max-w-[200px] leading-relaxed">
-                Düzce&apos;ye 45 dk mesafede. Odun ateşinde efsane kebap.
-              </p>
-            </a>
+            <div className="flex flex-wrap gap-2">
+              {[
+                { l: "Mamursa Tarifi", h: "/blog/mamursa-nedir-tarifi" },
+                { l: "Kahvalti Rehberi", h: "/blog/duzce-kahvalti-kulturu" },
+                { l: "Cerkez Mutfagi", h: "/blog/duzce-cerkez-mutfagi" },
+                { l: "Bosnak Boregi", h: "/blog/bosnak-boregi-tarifi" },
+                { l: "Melenguccegi", h: "/blog/melenguccegi-tatlisi-tarifi" },
+                { l: "En Iyi 10 Restoran", h: "/blog/duzce-en-iyi-restoranlar-2026" },
+              ].map((link) => (
+                <Link
+                  key={link.h}
+                  href={link.h}
+                  className="bg-white/5 hover:bg-white/10 text-white/60 hover:text-white px-3 py-1.5 rounded-lg text-xs font-semibold transition-colors"
+                >
+                  {link.l}
+                </Link>
+              ))}
+            </div>
           </div>
         </div>
 
         <div className="pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-white/30 text-xs">
-            &copy; {new Date().getFullYear()} Düzce Yemek Rehberi. Tüm hakları saklıdır.
+            &copy; {new Date().getFullYear()} Duzce&apos;de Yemek. Tum haklari
+            saklidir.
           </p>
-          <p className="text-white/20 text-xs italic font-serif">
-            &mdash; Karadeniz&apos;den sevgilerle &mdash;
+          <p className="text-white/20 text-xs font-display italic">
+            Her tabakta bir hikaye.
           </p>
         </div>
       </div>

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import CookieBanner from "@/components/cookie-consent/cookie-banner";
+import AccessibilityWidget from "@/components/accessibility/accessibility-widget";
 import { Playfair_Display, Lora, Inter } from "next/font/google";
 import "./globals.css";
 import { site } from "@/lib/site";
@@ -90,8 +91,10 @@ export default function RootLayout({
       className={`${playfair.variable} ${lora.variable} ${inter.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-paper text-ink">
+        <a href="#main-content" className="skip-link">Icerige atla</a>
         {children}
         <CookieBanner />
+        <AccessibilityWidget />
       </body>
     </html>
   );

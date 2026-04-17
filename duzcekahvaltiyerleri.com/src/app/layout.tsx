@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { Playfair_Display } from "next/font/google";
+import AccessibilityWidget from "@/components/accessibility/accessibility-widget";
 import "./globals.css";
 
 const inter = Inter({
@@ -73,7 +74,11 @@ export default function RootLayout({
       lang="tr"
       className={`${inter.variable} ${playfair.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        <a href="#main-content" className="skip-link">İçeriğe atla</a>
+        {children}
+        <AccessibilityWidget />
+      </body>
     </html>
   );
 }
