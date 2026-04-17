@@ -2,7 +2,7 @@
 title: "Düzce Kahvaltısı: Bir Sabahın 40 Çeşit Bahanesi"
 description: "Düzce serpme kahvaltısı neden böyle efsane olmuş? Köy tereyağı, kaymak ve Karadeniz sofrasının sırları. Nerede yenir, ne zaman gidilir."
 date: "2026-02-10"
-author: "Düzce Yemek Rehberi"
+author: "Duzce'de Yemek"
 category: "Sofra"
 tags: ["düzce kahvaltı", "serpme kahvaltı", "karadeniz mutfağı", "kahvaltı mekanları"]
 image: "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?w=1200&q=80"

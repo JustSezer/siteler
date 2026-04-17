@@ -2,7 +2,7 @@
 title: "Düzce Fındığı: Altın Yemişin Ardındaki Şehir"
 description: "Düzce neden Türkiye'nin fındık başkenti? Tombul fındık, hasat zamanı, fındıklı tarifler ve şehrin bu yemişle bağlantısı."
 date: "2026-01-25"
-author: "Düzce Yemek Rehberi"
+author: "Duzce'de Yemek"
 category: "Yerel"
 tags: ["fındık", "düzce fındığı", "tombul", "hasat"]
 image: "https://images.unsplash.com/photo-1599599810769-bcde5a160d32?w=1200&q=80"

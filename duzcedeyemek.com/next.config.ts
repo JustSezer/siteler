@@ -47,6 +47,30 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "upload.wikimedia.org",
       },
+      {
+        protocol: "https",
+        hostname: "static.wixstatic.com",
+      },
+      {
+        protocol: "https",
+        hostname: "www.kulturportali.gov.tr",
+      },
+      {
+        protocol: "https",
+        hostname: "i.lezzet.com.tr",
+      },
+      {
+        protocol: "https",
+        hostname: "cdn.yemek.com",
+      },
+      {
+        protocol: "https",
+        hostname: "image.hurimg.com",
+      },
+      {
+        protocol: "https",
+        hostname: "www.kevserinmutfagi.com",
+      },
     ],
   },
 };

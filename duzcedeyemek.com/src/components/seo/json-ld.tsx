@@ -2,13 +2,15 @@ export function WebSiteJsonLd() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: "Düzce Yemek Rehberi",
+    name: "Duzce'de Yemek",
+    alternateName: "duzcedeyemek.com",
     url: "https://duzcedeyemek.com",
     description:
-      "Düzce'nin yöresel lezzetleri, en iyi restoranları, gezi rotaları ve gastronomi rehberi.",
+      "Duzce'nin yoresel lezzetleri, geleneksel tarifleri ve en iyi restoranlari. Her tabakta bir hikaye.",
+    inLanguage: "tr",
     publisher: {
       "@type": "Organization",
-      name: "Düzce Yemek Rehberi",
+      name: "Duzce'de Yemek",
       url: "https://duzcedeyemek.com",
       contactPoint: {
         "@type": "ContactPoint",
@@ -19,10 +21,43 @@ export function WebSiteJsonLd() {
       },
       address: {
         "@type": "PostalAddress",
-        addressLocality: "Düzce",
+        addressLocality: "Duzce",
+        addressRegion: "Duzce",
         addressCountry: "TR",
       },
     },
+    potentialAction: {
+      "@type": "SearchAction",
+      target: {
+        "@type": "EntryPoint",
+        urlTemplate: "https://duzcedeyemek.com/blog?q={search_term_string}",
+      },
+      "query-input": "required name=search_term_string",
+    },
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
+export function BreadcrumbJsonLd({
+  items,
+}: {
+  items: { name: string; url: string }[];
+}) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: items.map((item, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: item.name,
+      item: item.url,
+    })),
   };
 
   return (

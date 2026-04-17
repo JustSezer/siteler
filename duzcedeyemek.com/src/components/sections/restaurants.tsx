@@ -1,178 +1,67 @@
 "use client";
 
+import { useRef } from "react";
 import { motion } from "framer-motion";
-import { MapPin, ExternalLink, Star } from "lucide-react";
+import Link from "next/link";
+import { MapPin, ChevronLeft, ChevronRight } from "lucide-react";
 
 const restaurants = [
-  {
-    name: "İbrahim'in Yeri",
-    type: "Et & Kebap",
-    desc: "1989'dan beri Bolu Dağı Bakacak mevkiinde 7/24 açık, odun ateşinde efsanevi et lokantası. Düzce'ye 45 dakika.",
-    image: "https://images.unsplash.com/photo-1544025162-d76694265947?w=700&q=80",
-    location: "Bolu Dağı",
-    link: "https://ibrahiminyerinden.com",
-    featured: true,
-  },
-  {
-    name: "Akçakoca Balık Evi",
-    type: "Deniz Ürünleri",
-    desc: "Sahil şeridinde günlük taze balık. Hamsi tava, levrek ızgara ve karides güveç.",
-    image: "https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=700&q=80",
-    location: "Akçakoca",
-  },
-  {
-    name: "Yaylacı Kahvaltı Evi",
-    type: "Kahvaltı",
-    desc: "40 çeşit serpme kahvaltı. Köy tereyağı, kaymak, gözleme ve ev reçelleri.",
-    image: "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?w=700&q=80",
-    location: "Merkez",
-  },
-  {
-    name: "Konuralp Sofrası",
-    type: "Yöresel",
-    desc: "Antik kent yakınında geleneksel Karadeniz mutfağı. Karalahana sarması ve mısır çorbası.",
-    image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=700&q=80",
-    location: "Konuralp",
-  },
-  {
-    name: "Fındıklı Cafe",
-    type: "Kafe & Tatlı",
-    desc: "Düzce fındığıyla hazırlanan özel tatlılar, kahveler ve el yapımı çikolatalar.",
-    image: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=700&q=80",
-    location: "Merkez",
-  },
-  {
-    name: "Dağ Evi Restaurant",
-    type: "Et & Mangal",
-    desc: "Orman içinde doğayla iç içe mangal keyfi. Kuzu çevirme ve saç kavurma.",
-    image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=700&q=80",
-    location: "Gölyaka",
-  },
-  {
-    name: "Sahil Meze Evi",
-    type: "Meze & Balık",
-    desc: "Akçakoca'da deniz manzaralı meze ve rakı sofrası. Ahtapot salatası ve kalamar.",
-    image: "https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=700&q=80",
-    location: "Akçakoca",
-  },
+  { name: "Akçakoca Balık Evi", type: "Deniz Ürünleri", desc: "Sahilde günlük taze balık.", image: "https://images.unsplash.com/photo-1568713852801-44dd04bbff05?w=400&q=80", location: "Akçakoca", tagColor: "bg-tag-blue text-tag-blue-text" },
+  { name: "Yaylacı Kahvaltı", type: "Kahvaltı", desc: "40 çeşit serpme sofra.", image: "https://images.unsplash.com/photo-1647772809798-f34d785c981c?w=400&q=80", location: "Merkez", tagColor: "bg-tag-yellow text-tag-yellow-text" },
+  { name: "İbrahim'in Yeri", type: "Et & Kebap", desc: "Bolu Dağı'nda odun ateşi.", image: "https://static.wixstatic.com/media/1626b5_38a9592421274b7fb76b5aad70260065~mv2.jpeg/v1/fill/w_600,h_400,al_c,q_80,enc_avif,quality_auto/ibrahimin%20yeri%20bolu%20et%20mangal%20restorant.jpeg", location: "Bolu Dağı", tagColor: "bg-tag-red text-tag-red-text" },
+  { name: "Konuralp Sofrası", type: "Yöresel", desc: "Antik kent yanında gelenek.", image: "https://images.unsplash.com/photo-1674224199162-7762013f3e7a?w=400&q=80", location: "Konuralp", tagColor: "bg-tag-green text-tag-green-text" },
+  { name: "Fındıklı Cafe", type: "Kafe & Tatlı", desc: "Fındıklı özel tatlılar.", image: "https://images.unsplash.com/photo-1603807609292-76af9c0e4b51?w=400&q=80", location: "Merkez", tagColor: "bg-tag-purple text-tag-purple-text" },
+  { name: "Dağ Evi Restaurant", type: "Et & Mangal", desc: "Orman içinde mangal.", image: "https://images.unsplash.com/photo-1680967628408-2e01f35b7b3e?w=400&q=80", location: "Gölyaka", tagColor: "bg-tag-green text-tag-green-text" },
 ];
 
 export default function Restaurants() {
+  const scrollRef = useRef<HTMLDivElement>(null);
+  const scroll = (dir: number) => {
+    scrollRef.current?.scrollBy({ left: dir * 320, behavior: "smooth" });
+  };
+
   return (
-    <section id="mekanlar" className="py-16 sm:py-20 lg:py-32 bg-background">
-      <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
-        {/* Section header */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          className="flex items-center gap-3 sm:gap-4 mb-10 sm:mb-12"
-        >
-          <span className="font-serif text-secondary text-3xl italic">§ 04</span>
-          <div className="h-px flex-1 bg-border" />
-          <p className="text-foreground-muted text-xs uppercase tracking-[0.25em]">
-            Mekanlar
-          </p>
-        </motion.div>
+    <section id="mekanlar" className="py-14 sm:py-20 lg:py-32 bg-background-alt">
+      <div className="max-w-7xl mx-auto px-5 lg:px-8">
+        <div className="flex items-end justify-between mb-10">
+          <div>
+            <p className="text-secondary font-bold text-sm mb-2">Mekan Rehberi</p>
+            <h2 className="font-display text-[clamp(2rem,4vw,3rem)] font-black text-foreground leading-tight">
+              Nerede yenir?
+            </h2>
+          </div>
+          <div className="hidden sm:flex items-center gap-2">
+            <button onClick={() => scroll(-1)} className="w-10 h-10 rounded-xl border border-border flex items-center justify-center hover:bg-card transition-colors" aria-label="Önceki">
+              <ChevronLeft className="w-5 h-5 text-foreground-muted" />
+            </button>
+            <button onClick={() => scroll(1)} className="w-10 h-10 rounded-xl border border-border flex items-center justify-center hover:bg-card transition-colors" aria-label="Sonraki">
+              <ChevronRight className="w-5 h-5 text-foreground-muted" />
+            </button>
+          </div>
+        </div>
+      </div>
 
-        <motion.h2
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.8 }}
-          className="font-serif text-[clamp(2rem,5vw,4rem)] font-black text-primary leading-[1] tracking-tight mb-10 sm:mb-16 max-w-3xl"
-        >
-          Nerede <span className="italic text-secondary font-light">yenir?</span>
-        </motion.h2>
-
-        {/* Restaurant list - horizontal cards */}
-        <div className="space-y-5">
-          {restaurants.map((r, i) => {
-            const Wrapper = r.link ? "a" : "div";
-            const wrapperProps = r.link
-              ? { href: r.link, target: "_blank", rel: "noopener noreferrer" }
-              : {};
-            return (
-              <motion.div
-                key={r.name}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: i * 0.07 }}
-              >
-                <Wrapper {...wrapperProps} className="block">
-                  <motion.div
-                    whileHover={{ x: 10 }}
-                    transition={{ type: "spring", stiffness: 300, damping: 25 }}
-                    className={`group grid grid-cols-12 gap-3 sm:gap-4 lg:gap-8 items-center py-5 sm:py-6 lg:py-8 border-b border-border ${
-                      r.featured ? "bg-accent-cream -mx-6 lg:-mx-10 px-6 lg:px-10 border-t-2 border-t-secondary" : ""
-                    }`}
-                  >
-                                <div className="hidden lg:flex col-span-1 items-center">
-                      {r.featured ? (
-                        <Star className="w-5 h-5 text-secondary fill-secondary" />
-                      ) : (
-                        <p className="font-serif text-2xl font-black text-foreground-muted/40 group-hover:text-secondary transition-colors">
-                          {String(i + 1).padStart(2, "0")}
-                        </p>
-                      )}
-                    </div>
-
-                    <div className="col-span-5 sm:col-span-4 lg:col-span-3">
-                      <div className="aspect-[4/3] overflow-hidden relative">
-                        <div
-                          className="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
-                          style={{ backgroundImage: `url('${r.image}')` }}
-                          role="img"
-                          aria-label={r.name}
-                        />
-                        {r.featured && (
-                          <div className="absolute top-2 left-2 bg-secondary text-white text-[9px] uppercase tracking-wider px-2 py-1 font-medium">
-                            Özel Öneri
-                          </div>
-                        )}
-                      </div>
-                    </div>
-
-                    <div className="col-span-7 sm:col-span-6 lg:col-span-5">
-                      <div className="flex items-center gap-3 mb-2">
-                        <span className="text-secondary text-[10px] font-medium uppercase tracking-wider">
-                          {r.type}
-                        </span>
-                        <span className="text-border-light">&bull;</span>
-                        <span className="flex items-center gap-1 text-foreground-muted text-xs">
-                          <MapPin className="w-3 h-3" />
-                          {r.location}
-                        </span>
-                      </div>
-                      <h3 className="font-serif text-base sm:text-xl lg:text-2xl font-bold text-primary group-hover:text-secondary transition-colors duration-300 mb-1 sm:mb-1.5 leading-tight">
-                        {r.name}
-                      </h3>
-                      <p className="text-foreground-muted text-xs sm:text-sm leading-relaxed line-clamp-2 sm:line-clamp-none">
-                        {r.desc}
-                      </p>
-                    </div>
-
-                    <div className="hidden sm:flex col-span-2 lg:col-span-3 justify-end">
-                      <div
-                        className={`w-10 h-10 rounded-full border flex items-center justify-center transition-all ${
-                          r.featured
-                            ? "border-secondary bg-secondary"
-                            : "border-border group-hover:border-secondary group-hover:bg-secondary"
-                        }`}
-                      >
-                        <ExternalLink
-                          className={`w-4 h-4 transition-colors ${
-                            r.featured ? "text-white" : "text-foreground-muted group-hover:text-white"
-                          }`}
-                        />
-                      </div>
-                    </div>
-                  </motion.div>
-                </Wrapper>
-              </motion.div>
-            );
-          })}
+      <div ref={scrollRef} className="flex gap-4 overflow-x-auto snap-x snap-mandatory scrollbar-hide px-5 lg:px-8 pb-4" style={{ scrollbarWidth: "none" }}>
+        {restaurants.map((r, i) => (
+          <motion.article key={r.name} initial={{ opacity: 0, x: 40 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ delay: i * 0.08 }} className="flex-shrink-0 w-[260px] sm:w-[280px] md:w-[300px] snap-start">
+            <div className="bg-card rounded-2xl overflow-hidden border border-border-light shadow-sm hover:shadow-lg transition-shadow h-full">
+              <div className="relative aspect-[4/3] overflow-hidden">
+                <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url('${r.image}')` }} role="img" aria-label={r.name} />
+                <span className={`absolute top-3 left-3 px-2.5 py-1 rounded-lg text-[11px] font-bold ${r.tagColor}`}>{r.type}</span>
+              </div>
+              <div className="p-4">
+                <h3 className="font-display text-base font-bold text-foreground mb-1">{r.name}</h3>
+                <p className="text-foreground-muted text-sm mb-2">{r.desc}</p>
+                <span className="flex items-center gap-1 text-xs text-foreground-muted"><MapPin className="w-3 h-3" />{r.location}</span>
+              </div>
+            </div>
+          </motion.article>
+        ))}
+        <div className="flex-shrink-0 w-[260px] sm:w-[280px] md:w-[300px] snap-start">
+          <Link href="/duzce-restoranlari" className="bg-primary/5 rounded-2xl border-2 border-dashed border-primary/20 h-full flex flex-col items-center justify-center p-8 hover:bg-primary/10 transition-colors">
+            <span className="text-primary font-display text-lg font-bold mb-1">Tüm Mekanlar</span>
+            <span className="text-foreground-muted text-sm">&rarr;</span>
+          </Link>
         </div>
       </div>
     </section>

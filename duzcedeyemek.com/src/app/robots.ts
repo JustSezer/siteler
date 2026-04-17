@@ -10,22 +10,17 @@ export default function robots(): MetadataRoute.Robots {
       },
       {
         userAgent: "GPTBot",
+        allow: ["/llms.txt", "/llms-full.txt"],
         disallow: ["/"],
       },
       {
         userAgent: "ChatGPT-User",
-        disallow: ["/"],
-      },
-      {
-        userAgent: "CCBot",
-        disallow: ["/"],
-      },
-      {
-        userAgent: "anthropic-ai",
+        allow: ["/llms.txt"],
         disallow: ["/"],
       },
       {
         userAgent: "Google-Extended",
+        allow: ["/llms.txt"],
         disallow: ["/"],
       },
     ],

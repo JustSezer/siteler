@@ -3,8 +3,8 @@ import Header from "@/components/layout/header";
 import Footer from "@/components/layout/footer";
 
 export const metadata: Metadata = {
-  title: "Çerez Politikası | Düzce Yemek Rehberi",
-  description: "Düzce Yemek Rehberi çerez politikası.",
+  title: "Cerez Politikasi | Duzce'de Yemek",
+  description: "Duzce'de Yemek cerez politikasi ve cerez yonetim bilgileri.",
   alternates: {
     canonical: "https://duzcedeyemek.com/cerez-politikasi",
   },

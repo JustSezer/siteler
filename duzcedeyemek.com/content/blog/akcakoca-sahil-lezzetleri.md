@@ -2,7 +2,7 @@
 title: "Akçakoca'da Balık: Ağın Denizden Sofraya Yolculuğu"
 description: "Akçakoca'da taze balık nerede yenir, ne zaman yenir, nasıl avlanır. Karadeniz'in bozulmamış sahil kasabasında bir günlük balık rehberi."
 date: "2026-02-15"
-author: "Düzce Yemek Rehberi"
+author: "Duzce'de Yemek"
 category: "Sahil"
 tags: ["akçakoca", "balık", "karadeniz", "deniz ürünleri"]
 image: "https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=1200&q=80"

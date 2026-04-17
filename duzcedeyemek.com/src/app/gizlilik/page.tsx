@@ -4,8 +4,8 @@ import Header from "@/components/layout/header";
 import Footer from "@/components/layout/footer";
 
 export const metadata: Metadata = {
-  title: "Gizlilik Politikası | Düzce Yemek Rehberi",
-  description: "Düzce Yemek Rehberi gizlilik politikası.",
+  title: "Gizlilik Politikasi | Duzce'de Yemek",
+  description: "Duzce'de Yemek gizlilik politikasi ve kisisel veri koruma bilgileri.",
   alternates: {
     canonical: "https://duzcedeyemek.com/gizlilik",
   },

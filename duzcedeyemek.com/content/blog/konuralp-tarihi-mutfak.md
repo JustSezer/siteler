@@ -2,7 +2,7 @@
 title: "Konuralp: Bir Roma Şehrinin Gölgesinde Yemek"
 description: "Düzce'nin 10 dakika uzağındaki antik kent Prusias ad Hypium ve çevresindeki yöresel mutfak. Tarih ile lezzet nasıl birlikte gidilir?"
 date: "2026-02-01"
-author: "Düzce Yemek Rehberi"
+author: "Duzce'de Yemek"
 category: "Kültür"
 tags: ["konuralp", "prusias ad hypium", "antik kent", "karadeniz mutfağı"]
 image: "https://upload.wikimedia.org/wikipedia/commons/5/5d/Prusias_ad_Hypium_10.jpg"

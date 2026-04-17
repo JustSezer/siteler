@@ -8,24 +8,19 @@ export default function Footer() {
   return (
     <footer className="bg-primary-dark text-white">
       <div className="max-w-7xl mx-auto px-5 lg:px-8 py-16">
-        <div className="grid grid-cols-2 lg:grid-cols-12 gap-10 mb-14">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12 gap-8 sm:gap-10 mb-14">
           {/* Brand */}
           <div className="col-span-2 lg:col-span-4">
-            <Link href="/" className="inline-flex items-center gap-2 mb-5">
-              <span className="w-9 h-9 rounded-xl bg-white/10 flex items-center justify-center text-white font-extrabold text-sm">
-                DY
+            <Link href="/" className="inline-block mb-5 leading-tight">
+              <span className="font-display text-xl font-bold text-white">
+                Düzce&apos;de
+              </span>{" "}
+              <span className="text-secondary-light font-bold text-sm tracking-wide">
+                YEMEK
               </span>
-              <div className="leading-tight">
-                <span className="font-display text-lg font-bold text-white block leading-none">
-                  Duzce&apos;de
-                </span>
-                <span className="text-secondary-light font-bold text-xs tracking-wide">
-                  YEMEK
-                </span>
-              </div>
             </Link>
             <p className="text-white/50 text-sm leading-relaxed max-w-xs mb-6">
-              Duzce&apos;nin yoresel lezzetleri, restoran rehberi ve mutfak
+              Düzce&apos;nin yöresel lezzetleri, restoran rehberi ve mutfak
               hikayeleri — tek adreste. Her tabakta bir hikaye.
             </p>
             <div className="space-y-2">
@@ -44,7 +39,7 @@ export default function Footer() {
           {/* Kesfet */}
           <div className="lg:col-span-2">
             <h3 className="text-secondary-light text-xs font-bold uppercase tracking-wider mb-5">
-              Kesfet
+              Keşfet
             </h3>
             <ul className="space-y-3">
               {footerLinks.kesfet.map((link) => (
@@ -82,7 +77,7 @@ export default function Footer() {
           {/* Populer */}
           <div className="col-span-2 lg:col-span-4">
             <h3 className="text-secondary-light text-xs font-bold uppercase tracking-wider mb-5">
-              Populer Yazilar
+              Popüler Yazılar
             </h3>
             <div className="flex flex-wrap gap-2">
               {[
@@ -107,8 +102,8 @@ export default function Footer() {
 
         <div className="pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-white/30 text-xs">
-            &copy; {new Date().getFullYear()} Duzce&apos;de Yemek. Tum haklari
-            saklidir.
+            &copy; {new Date().getFullYear()} Düzce&apos;de Yemek. Tüm hakları
+            saklıdır.
           </p>
           <p className="text-white/20 text-xs font-display italic">
             Her tabakta bir hikaye.

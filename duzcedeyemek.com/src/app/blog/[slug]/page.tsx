@@ -187,22 +187,7 @@ export default async function BlogPostPage({ params }: Props) {
     <>
       <Header />
       <main className="bg-background">
-        {/* Hero image */}
-        {post.image && (
-          <div className="relative h-[50vh] sm:h-[60vh] lg:h-[70vh]">
-            <Image
-              src={post.image}
-              alt={post.imageAlt}
-              fill
-              className="object-cover"
-              priority
-              sizes="100vw"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-background via-background/30 to-transparent" />
-          </div>
-        )}
-
-        <article className="max-w-[720px] mx-auto px-6 lg:px-0 -mt-32 relative z-10">
+        <article className="max-w-[720px] mx-auto px-4 sm:px-6 lg:px-0 pt-28">
           {/* Back link */}
           <Link
             href="/blog"
@@ -265,35 +250,24 @@ export default async function BlogPostPage({ params }: Props) {
 
         {/* Related posts */}
         {relatedPosts.length > 0 && (
-          <div className="max-w-[1400px] mx-auto px-6 lg:px-10 mt-20 pb-24">
-            <div className="border-t border-border pt-14">
-              <h2 className="font-serif text-2xl font-bold text-foreground mb-10">
+          <div className="max-w-[720px] mx-auto px-6 lg:px-0 mt-16 pb-24">
+            <div className="border-t border-border pt-10">
+              <h2 className="font-display text-xl font-bold text-foreground mb-6">
                 Diğer Yazılar
               </h2>
-              <div className="grid sm:grid-cols-3 gap-5">
+              <div className="space-y-3">
                 {relatedPosts.map((rp) => (
                   <Link
                     key={rp.slug}
                     href={`/blog/${rp.slug}`}
-                    className="group"
+                    className="group block py-3 border-b border-border-light"
                   >
-                    <article className="relative rounded-xl overflow-hidden h-[240px]">
-                      <div
-                        className="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
-                        style={{ backgroundImage: `url('${rp.image}')` }}
-                        role="img"
-                        aria-label={rp.imageAlt}
-                      />
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
-                      <div className="absolute bottom-0 left-0 right-0 p-5">
-                        <span className="text-[10px] font-bold uppercase tracking-wider text-primary">
-                          {rp.category}
-                        </span>
-                        <h3 className="font-serif text-lg font-bold text-white group-hover:text-secondary transition-colors duration-300 leading-snug mt-1">
-                          {rp.title}
-                        </h3>
-                      </div>
-                    </article>
+                    <span className="text-[10px] font-bold uppercase tracking-wider text-primary">
+                      {rp.category}
+                    </span>
+                    <h3 className="font-display text-base font-bold text-foreground group-hover:text-primary transition-colors leading-snug mt-1">
+                      {rp.title}
+                    </h3>
                   </Link>
                 ))}
               </div>

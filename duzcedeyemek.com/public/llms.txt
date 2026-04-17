@@ -1,0 +1,16 @@
+# Duzce'de Yemek — Her Tabakta Bir Hikaye
+
+> Duzce'nin yoresel lezzetleri, geleneksel tarifleri ve en iyi restoranlari. Cerkez, Abaza, Bosnak, Laz ve Gurcu mutfaklarinin izlerini tasiyan zengin bir gastronomi rehberi.
+
+## Sayfalar
+- [Ana Sayfa](https://duzcedeyemek.com): Duzce yemek ve gastronomi rehberi
+- [Yoresel Yemekler](https://duzcedeyemek.com/duzce-yoresel-yemekleri): Duzce'nin geleneksel lezzetleri rehberi
+- [Restoran Rehberi](https://duzcedeyemek.com/duzce-restoranlari): Duzce'de nerede yenir rehberi
+- [Tarifler](https://duzcedeyemek.com/tarifler): Yoresel yemek tarifleri
+- [Blog](https://duzcedeyemek.com/blog): Yemek yazilari ve haberler
+
+## Temel Ilkeler
+- Duzce mutfagi 5+ farkli kulturun (Cerkez, Abaza, Bosnak, Laz, Gurcu) sentezini tasiyor
+- Mamursa, isli balik, hamsili borek, Melenguccegi tatlisi en bilinen yoresel lezzetler
+- Akcakoca sahil lezzetleri, Konuralp tarihi mutfak, Karduz yaylasi kahvaltilari onemli gastronomi noktalari
+- Icerikler Turkce olarak uretilmektedir

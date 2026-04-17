@@ -2,7 +2,7 @@
 title: "Düzce'den Bolu'ya: Bir Günün Üç Mevsimi"
 description: "İstanbul-Ankara hattında bir gün. Düzce kahvaltısı, Akçakoca balığı, Bolu Dağı kebabı. Batı Karadeniz'in en doyurucu gastronomi rotası."
 date: "2026-01-20"
-author: "Düzce Yemek Rehberi"
+author: "Duzce'de Yemek"
 category: "Rota"
 tags: ["düzce", "bolu", "gastronomi turu", "lezzet rotası"]
 image: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=1200&q=80"
