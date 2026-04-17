@@ -1,0 +1,627 @@
+{
+  "meta": {
+    "site": "duzceetmangal.com",
+    "project": "Duman Defteri",
+    "date": "2026-04-16",
+    "analyst": "keyword-analyst",
+    "version": "1.0",
+    "language": "tr",
+    "targetMarket": ["Düzce merkez", "Kaynaşlı", "Bakacak mevkii", "D100 güzergahı", "Akçakoca"]
+  },
+
+  "sayfaBazliAnahtarKelimeler": {
+    "anaSayfa": {
+      "primaryKeyword": "düzce et mangal",
+      "secondaryKeywords": [
+        "düzce mangal",
+        "düzce et",
+        "düzce et lokantası",
+        "düzce mangal nerede yenir",
+        "düzce en iyi mangal",
+        "düzce ızgara",
+        "düzce et restoranları",
+        "düzce yemek rehberi",
+        "düzce meşe közü mangal"
+      ],
+      "longTailKeywords": [
+        "düzce'de en iyi et mangal nerede yenir",
+        "düzce merkez et mangal restoran önerileri",
+        "düzce'de meşe közünde et yemek",
+        "düzce mangal mekanları fiyatları 2026",
+        "düzce et mangal rehberi"
+      ],
+      "metaTitle": "Düzce Et Mangal | Meşe Közünde, Yolun Kenarında",
+      "metaDescription": "Düzce'nin bağımsız et ve mangal rehberi. Bakacak'tan Kaynaşlı'ya, meşe közünde pişen etin peşinde — en iyi mangal noktaları, et seçimi ve usta tavsiyeleri.",
+      "h1": "Düzce'de Meşe Közünde Et Mangal Rehberi",
+      "urlSlug": "/"
+    },
+
+    "bakacakRehberi": {
+      "primaryKeyword": "bakacak mangal düzce",
+      "secondaryKeywords": [
+        "bakacak mevkii mangal",
+        "bakacak köfte",
+        "bakacak et mangal",
+        "d100 mangal düzce",
+        "kaynaşlı bakacak mangal",
+        "bolu dağı bakacak",
+        "bakacak mevkii restoranlar",
+        "d100 et mangal molası",
+        "bakacak köfte nedir"
+      ],
+      "longTailKeywords": [
+        "bakacak mevkiinde en iyi mangal nerede yenir",
+        "d100 üzerinde bakacak mangal mekanları",
+        "bakacak köfte nasıl yapılır tarifi",
+        "istanbul ankara yolu bakacak mangal molası",
+        "kaynaşlı bakacak mevkii et lokantaları"
+      ],
+      "metaTitle": "Bakacak Mangal Rehberi | D100'ün Efsane Et Durağı",
+      "metaDescription": "Bakacak mevkiinde mangal geleneği, en iyi mekanlar ve meşe kömürü sırları. D100 üzerinde et molası vermek isteyenler için eksiksiz Bakacak rehberi.",
+      "h1": "Bakacak'ta Mangal: D100'ün Efsane Durağı",
+      "urlSlug": "/bakacak-rehberi"
+    },
+
+    "etRehberi": {
+      "primaryKeyword": "düzce et lokantası",
+      "secondaryKeywords": [
+        "düzce et nerede yenir",
+        "düzce kuzu pirzola",
+        "düzce köfte",
+        "düzce kasap",
+        "düzce et çeşitleri",
+        "düzce kuzu eti",
+        "meşe közünde et pişirme",
+        "düzce mangal eti fiyatları",
+        "düzce et siparişi"
+      ],
+      "longTailKeywords": [
+        "düzce'de en iyi kuzu pirzola nerede yenir",
+        "düzce'de kaliteli kasap ve et nereden alınır",
+        "meşe közünde kuzu pirzola nasıl pişirilir",
+        "düzce yöresel et yemekleri nelerdir",
+        "düzce'de dana ızgara nerede yenir"
+      ],
+      "metaTitle": "Düzce'de Et Nerede Yenir? | Et Rehberi 2026",
+      "metaDescription": "Düzce'de hangi et, nasıl pişer, nerede yenir? Meşe közünde pirzoladan köfteye, kasaptan sofraya — Düzce et severlerin eksiksiz rehberi.",
+      "h1": "Düzce'de Et Nerede Yenir? Meşe Közünden Sofraya",
+      "urlSlug": "/et-rehberi"
+    },
+
+    "blog": {
+      "primaryKeyword": "düzce yemek rehberi",
+      "secondaryKeywords": [
+        "düzce lezzet notları",
+        "düzce mangal yazıları",
+        "d100 yol notları",
+        "düzce gastronomi",
+        "düzce yemek kültürü",
+        "bakacak mangal hikayeleri",
+        "düzce et mangal blog",
+        "düzce lezzet durağı"
+      ],
+      "longTailKeywords": [
+        "düzce'de ne yenir ne içilir rehberi",
+        "bakacak mangal geleneğinin hikayesi",
+        "d100 karayolu lezzet durakları"
+      ],
+      "metaTitle": "Düzce Lezzet Defteri | Et, Köz ve Yol Notları",
+      "metaDescription": "D100'den Bakacak'a, meşe ormanından közün başına — Düzce'nin et ve mangal hikayelerini yolcu defteri formatında okuyun.",
+      "h1": "Duman Defteri: Düzce Lezzet Notları",
+      "urlSlug": "/blog"
+    },
+
+    "sss": {
+      "primaryKeyword": "düzce mangal nerede yenir",
+      "secondaryKeywords": [
+        "düzce et mangal soru cevap",
+        "bakacak nasıl gidilir",
+        "düzce mangal fiyatları",
+        "bakacak mangal mekanları",
+        "düzce et lokantası hangisi iyi",
+        "kaynaşlı mangal nerede"
+      ],
+      "longTailKeywords": [
+        "düzce'de mangal yapmak için en iyi yerler nereler",
+        "bakacak mevkiine nasıl gidilir harita",
+        "düzce et mangal fiyatları ne kadar 2026"
+      ],
+      "metaTitle": "Düzce Mangal SSS | Sık Sorulan Sorular",
+      "metaDescription": "Düzce'de mangal nerede yenir, Bakacak'a nasıl gidilir, fiyatlar ne kadar? Düzce et mangal hakkında en çok sorulan soruların cevapları.",
+      "h1": "Yolcunun Soruları: Düzce Mangal SSS",
+      "urlSlug": "/sss"
+    },
+
+    "iletisim": {
+      "primaryKeyword": "düzce et mangal iletişim",
+      "secondaryKeywords": [
+        "düzce mangal rezervasyon",
+        "bakacak mangal telefon",
+        "düzce et mangal adres",
+        "kaynaşlı mangal iletişim"
+      ],
+      "longTailKeywords": [
+        "düzce bakacak mangal iletişim bilgileri",
+        "düzce et mangal whatsapp rezervasyon"
+      ],
+      "metaTitle": "İletişim | Düzce Et Mangal Rehberi",
+      "metaDescription": "Düzce et mangal rehberi ile iletişime geçin. Soru, öneri ve mekan bildirimleri için formu doldurun veya doğrudan arayın.",
+      "h1": "İletişim",
+      "urlSlug": "/iletisim"
+    }
+  },
+
+  "blogYazisiAnahtarKelimeleri": [
+    {
+      "hedefAnahtarKelime": "bakacak köfte tarifi",
+      "aramahacmiPotansiyeli": "orta",
+      "baslikOnerisi": "Bakacak Köfte: Bolu Dağı'nın Tescilli Lezzetinin Sırrı",
+      "internalLink": "/bakacak-rehberi"
+    },
+    {
+      "hedefAnahtarKelime": "meşe kömürü mangal farkı",
+      "aramahacmiPotansiyeli": "orta",
+      "baslikOnerisi": "Meşe Kömürü mü, Hazır Kömür mü? Közün Gerçek Farkı",
+      "internalLink": "/et-rehberi"
+    },
+    {
+      "hedefAnahtarKelime": "düzce mangal yapılacak yerler",
+      "aramahacmiPotansiyeli": "yüksek",
+      "baslikOnerisi": "Düzce'de Mangal Yapılacak 7 Nokta: Piknikten Lokantaya",
+      "internalLink": "/"
+    },
+    {
+      "hedefAnahtarKelime": "istanbul ankara yolu mangal molası",
+      "aramahacmiPotansiyeli": "yüksek",
+      "baslikOnerisi": "İstanbul–Ankara Yolunda En İyi Mangal Molası Nerede Verilir?",
+      "internalLink": "/bakacak-rehberi"
+    },
+    {
+      "hedefAnahtarKelime": "kuzu pirzola nasıl pişirilir mangalda",
+      "aramahacmiPotansiyeli": "yüksek",
+      "baslikOnerisi": "Mangalda Kuzu Pirzola: Meşe Közünde Mükemmel Pişirme Rehberi",
+      "internalLink": "/et-rehberi"
+    },
+    {
+      "hedefAnahtarKelime": "düzce meşhur yemekleri",
+      "aramahacmiPotansiyeli": "yüksek",
+      "baslikOnerisi": "Düzce'nin Meşhur Yemekleri: Etinden Tatlısına Lezzet Haritası",
+      "internalLink": "/"
+    },
+    {
+      "hedefAnahtarKelime": "yamaçlar et lokantası düzce",
+      "aramahacmiPotansiyeli": "düşük",
+      "baslikOnerisi": "1949'dan Beri: Yamaçlar Et Lokantası ve Düzce'nin Et Geleneği",
+      "internalLink": "/et-rehberi"
+    },
+    {
+      "hedefAnahtarKelime": "bolu dağı et mangal fiyatları 2026",
+      "aramahacmiPotansiyeli": "yüksek",
+      "baslikOnerisi": "Bolu Dağı Et Mangal Fiyatları 2026: Güncel Menü Rehberi",
+      "internalLink": "/bakacak-rehberi"
+    },
+    {
+      "hedefAnahtarKelime": "düzce gezilecek yerler yemek",
+      "aramahacmiPotansiyeli": "yüksek",
+      "baslikOnerisi": "Düzce'ye Geldiysen Bunları Ye: Gezi + Lezzet Rotası",
+      "internalLink": "/"
+    },
+    {
+      "hedefAnahtarKelime": "mangal ateşi nasıl yakılır",
+      "aramahacmiPotansiyeli": "yüksek",
+      "baslikOnerisi": "Mangal Ateşi Nasıl Yakılır? Ustadan 5 Altın Kural",
+      "internalLink": "/et-rehberi"
+    },
+    {
+      "hedefAnahtarKelime": "et dinlendirme nedir nasıl yapılır",
+      "aramahacmiPotansiyeli": "orta",
+      "baslikOnerisi": "Et Dinlendirme: Mangalcıların Unuttuğu Son Adım",
+      "internalLink": "/et-rehberi"
+    },
+    {
+      "hedefAnahtarKelime": "akçakoca balık restoran",
+      "aramahacmiPotansiyeli": "orta",
+      "baslikOnerisi": "Akçakoca'da Balık Nerede Yenir? Düzce'nin Deniz Tarafı",
+      "internalLink": "/"
+    },
+    {
+      "hedefAnahtarKelime": "kaynaşlı nerede ne yenir",
+      "aramahacmiPotansiyeli": "düşük",
+      "baslikOnerisi": "Kaynaşlı'da Ne Yenir? D100 Üzerinde Lezzet Rehberi",
+      "internalLink": "/bakacak-rehberi"
+    },
+    {
+      "hedefAnahtarKelime": "mangal marinası tarifleri",
+      "aramahacmiPotansiyeli": "yüksek",
+      "baslikOnerisi": "Mangal Marinası: Et Severlerin Asit ve Tuz Dengesi Rehberi",
+      "internalLink": "/et-rehberi"
+    },
+    {
+      "hedefAnahtarKelime": "düzce hafta sonu ne yapılır",
+      "aramahacmiPotansiyeli": "orta",
+      "baslikOnerisi": "Düzce'de Hafta Sonu: Doğa + Mangal + Keşif Rotası",
+      "internalLink": "/"
+    },
+    {
+      "hedefAnahtarKelime": "d100 karayolu lezzet durakları",
+      "aramahacmiPotansiyeli": "düşük",
+      "baslikOnerisi": "D100 Karayolu Üzerinde Durulması Gereken Lezzet Noktaları",
+      "internalLink": "/bakacak-rehberi"
+    },
+    {
+      "hedefAnahtarKelime": "mangal et seçimi nasıl yapılır",
+      "aramahacmiPotansiyeli": "orta",
+      "baslikOnerisi": "Mangal İçin Et Seçimi: Dana mı, Kuzu mu, Hangi Parça?",
+      "internalLink": "/et-rehberi"
+    },
+    {
+      "hedefAnahtarKelime": "düzce köftecisi",
+      "aramahacmiPotansiyeli": "orta",
+      "baslikOnerisi": "Düzce Köftecileri: Şehrin En İyi Köfte Durakları",
+      "internalLink": "/et-rehberi"
+    },
+    {
+      "hedefAnahtarKelime": "bayram mangal hazırlığı",
+      "aramahacmiPotansiyeli": "yüksek",
+      "baslikOnerisi": "Bayram Mangalı Hazırlık Rehberi: Etten Köze Her Adım",
+      "internalLink": "/et-rehberi"
+    },
+    {
+      "hedefAnahtarKelime": "düzce doğa yürüyüşü mangal",
+      "aramahacmiPotansiyeli": "düşük",
+      "baslikOnerisi": "Düzce'de Doğa Yürüyüşü + Mangal Keyfi: Günübirlik Rota",
+      "internalLink": "/"
+    }
+  ],
+
+  "aiAramaOptimizasyonu": {
+    "chatgptPerplexitySorulari": [
+      "Düzce'de en iyi mangal nerede yenir?",
+      "Bakacak mevkiinde hangi restoran iyi?",
+      "D100 üzerinde mangal molası nerede verilir?",
+      "Düzce et lokantası önerisi",
+      "Kaynaşlı'da mangal yenecek yer var mı?",
+      "Düzce meşe kömürü mangal geleneği nedir?",
+      "Bakacak köfte nedir, nerede yenir?",
+      "İstanbul-Ankara yolunda en iyi mola yeri neresi?",
+      "Düzce'de kuzu pirzola nerede yenir?",
+      "Bolu Dağı'nda et mangal fiyatları ne kadar?",
+      "Düzce'nin meşhur yemekleri nelerdir?",
+      "Akçakoca'da balık nerede yenir?",
+      "Düzce'de hafta sonu ne yapılır?",
+      "Yamaçlar Et Lokantası nasıl, tavsiye eder misiniz?",
+      "Düzce mangal yapılacak piknik alanları nerede?",
+      "Mangalda en iyi et hangisidir?",
+      "Meşe kömürü ile hazır kömür arasındaki fark nedir?",
+      "Bakacak mevkiine nasıl gidilir?",
+      "Düzce'de çocuklu aileye uygun et mangal mekanı var mı?",
+      "D100 Bakacak mangal geleneği ne zamandan beri var?"
+    ],
+    "icerikStratejisi": {
+      "sssFormati": "Her AI sorusuna 2-3 cümlelik kısa, net cevaplar + detaylı sayfa linki",
+      "yapilandirilmisVeri": "FAQ Schema + HowTo Schema + LocalBusiness Schema",
+      "icselBaglanti": "Her cevap ilgili sayfaya yönlendirme içermeli",
+      "llmsTxt": "public/llms.txt dosyasında site özeti ve sayfa açıklamaları",
+      "paragrafYapisi": "Kısa paragraflar (max 3 cümle) — AI tarafından excerpt olarak seçilebilir"
+    }
+  },
+
+  "yerelSEOKelimeHaritasi": {
+    "ilceMevkiBazli": {
+      "düzceMerkez": [
+        "düzce et mangal",
+        "düzce merkez et lokantası",
+        "düzce merkez mangal",
+        "düzce merkez ızgara",
+        "düzce merkez köfte",
+        "düzce merkez kasap"
+      ],
+      "kaynaşlı": [
+        "kaynaşlı et mangal",
+        "kaynaşlı mangal",
+        "kaynaşlı et lokantası",
+        "kaynaşlı restoran",
+        "kaynaşlı nerede yenir"
+      ],
+      "bakacak": [
+        "bakacak mangal",
+        "bakacak köfte",
+        "bakacak et mangal",
+        "bakacak mevkii restoran",
+        "bakacak mevkii yemek",
+        "bolu dağı bakacak mangal"
+      ],
+      "akçakoca": [
+        "akçakoca balık restoran",
+        "akçakoca nerede yenir",
+        "akçakoca deniz ürünleri",
+        "akçakoca et mangal"
+      ],
+      "d100Güzergah": [
+        "d100 mangal molası",
+        "d100 et mangal düzce",
+        "d100 karayolu restoran",
+        "d100 bakacak mola",
+        "istanbul ankara yolu mangal"
+      ]
+    },
+    "yakinimda": [
+      "yakınımda et mangal",
+      "yakınımda mangal yapılacak yer",
+      "yakınımda et lokantası",
+      "yakınımda köfteci",
+      "yakınımda ızgara restoran",
+      "düzce yakınında mangal",
+      "bolu dağı yakınında et mangal"
+    ],
+    "googleMapsHaritalar": [
+      "düzce et mangal harita",
+      "bakacak mangal konum",
+      "kaynaşlı et lokantası harita",
+      "d100 mangal noktaları harita",
+      "düzce mangal mekanları konumları"
+    ]
+  },
+
+  "mevsimselTrendselKelimeler": {
+    "yazMangalSezonu": {
+      "donem": "Mayıs–Eylül",
+      "kelimeler": [
+        "yaz mangalı düzce",
+        "açık hava mangal düzce",
+        "düzce piknik mangal",
+        "düzce doğada mangal",
+        "mangal sezonu başladı",
+        "yaz et mangal fiyatları"
+      ]
+    },
+    "bayramDonemi": {
+      "donem": "Kurban/Ramazan Bayramı",
+      "kelimeler": [
+        "kurban bayramı et mangal",
+        "kurban eti nasıl pişirilir mangalda",
+        "bayram mangalı hazırlığı",
+        "kurban bayramı düzce mangal",
+        "ramazan bayramı düzce yemek",
+        "bayram et fiyatları düzce"
+      ]
+    },
+    "haftaSonuTatil": {
+      "donem": "Yıl boyu (Cuma–Pazar yoğunluk)",
+      "kelimeler": [
+        "hafta sonu düzce mangal",
+        "düzce günübirlik gezi mangal",
+        "düzce hafta sonu ne yapılır",
+        "düzce tatil mangal keyfi",
+        "düzce kısa tatil yemek",
+        "istanbul düzce günübirlik"
+      ]
+    },
+    "kisOdunAtesi": {
+      "donem": "Kasım–Mart",
+      "kelimeler": [
+        "kış mangalı düzce",
+        "düzce şömineli restoran",
+        "kış et yemekleri düzce",
+        "düzce tandır",
+        "düzce sıcak yemek lokantası"
+      ]
+    }
+  },
+
+  "semantikKelimeKumeleri": {
+    "etTurleri": {
+      "aciklama": "Et çeşitleri ve parça isimleri",
+      "kelimeler": [
+        "kuzu pirzola",
+        "kuzu şiş",
+        "dana bonfile",
+        "dana antrikot",
+        "kuzu kaburga",
+        "kuzu incik",
+        "dana biftek",
+        "kuzu but",
+        "köfte",
+        "bakacak köfte",
+        "ciğer",
+        "sucuk",
+        "kavurma"
+      ]
+    },
+    "pisirmeTeknikleri": {
+      "aciklama": "Et pişirme yöntemleri ve teknikleri",
+      "kelimeler": [
+        "meşe közü",
+        "mangal",
+        "ızgara",
+        "köz ateşi",
+        "tandır",
+        "ocakbaşı",
+        "kömür ateşi",
+        "odun ateşi",
+        "çevirme",
+        "fırın",
+        "marinad",
+        "et dinlendirme",
+        "mühürleme",
+        "közleme"
+      ]
+    },
+    "mekanLokasyon": {
+      "aciklama": "Yer, ilçe, mevki ve lokasyon kelimeleri",
+      "kelimeler": [
+        "düzce",
+        "kaynaşlı",
+        "bakacak",
+        "bakacak mevkii",
+        "akçakoca",
+        "d100",
+        "bolu dağı",
+        "istanbul ankara yolu",
+        "düzce merkez",
+        "gölyaka",
+        "yığılca",
+        "cumayeri"
+      ]
+    },
+    "yemekKulturu": {
+      "aciklama": "Gastronomi, gelenek ve kültür kelimeleri",
+      "kelimeler": [
+        "meşe kömürü geleneği",
+        "yol kenarı mangal",
+        "mangal molası",
+        "mola yeri",
+        "lezzet durağı",
+        "yöresel mutfak",
+        "et kültürü",
+        "usta",
+        "kalfa",
+        "ocak başı",
+        "köz başı",
+        "mangal keyfi",
+        "piknik",
+        "açık hava yemek"
+      ]
+    },
+    "hizmetDonusum": {
+      "aciklama": "Dönüşüm odaklı kelimeler (telefon, WhatsApp, rezervasyon)",
+      "kelimeler": [
+        "rezervasyon",
+        "telefon numarası",
+        "whatsapp sipariş",
+        "menü fiyat",
+        "online sipariş",
+        "paket servis",
+        "adres yol tarifi",
+        "çalışma saatleri",
+        "açık mı",
+        "fiyat listesi"
+      ]
+    }
+  },
+
+  "icerikBosluguAnalizi": {
+    "aciklama": "Rakiplerin karşılayamadığı ama arama hacmi olan kelimeler",
+    "bosluklar": [
+      {
+        "kelime": "bakacak mangal tarihi",
+        "durum": "Bakacak mevkiinin mangal geleneğinin tarihçesi hakkında içerik yok",
+        "firsat": "Yüksek — tarihi anlatı ile SEO ve AIO'da öne çıkma şansı",
+        "hedefSayfa": "/bakacak-rehberi"
+      },
+      {
+        "kelime": "düzce meşe kömürü üretimi",
+        "durum": "Düzce'nin meşe kömürü üretim geleneği hakkında editöryel içerik yok",
+        "firsat": "Orta — niş bilgi, AI aramalarda kaynak olma potansiyeli",
+        "hedefSayfa": "/blog"
+      },
+      {
+        "kelime": "düzce et mangal fiyat karşılaştırması",
+        "durum": "Hiçbir site güncel fiyat karşılaştırması sunmuyor",
+        "firsat": "Yüksek — transactional intent, yüksek CTR potansiyeli",
+        "hedefSayfa": "/et-rehberi"
+      },
+      {
+        "kelime": "d100 lezzet durakları haritası",
+        "durum": "D100 güzergahı üzerinde interaktif lezzet haritası yok",
+        "firsat": "Orta — link bait potansiyeli, sosyal paylaşım",
+        "hedefSayfa": "/bakacak-rehberi"
+      },
+      {
+        "kelime": "düzce et mangal çocuklu aile",
+        "durum": "Aile dostu mekan rehberi hiçbir rakipte yok",
+        "firsat": "Orta — spesifik niş, düşük rekabet",
+        "hedefSayfa": "/sss"
+      },
+      {
+        "kelime": "bakacak köfte tarifi evde",
+        "durum": "Bakacak köfte tarifinin ev versiyonu hiçbir yerde detaylı anlatılmamış",
+        "firsat": "Yüksek — tarif aramaları çok yüksek hacimli",
+        "hedefSayfa": "/blog"
+      },
+      {
+        "kelime": "düzce mangal mekanları karşılaştırma",
+        "durum": "Objektif mekan karşılaştırması yapan site yok",
+        "firsat": "Yüksek — informational intent, uzun kalma süresi",
+        "hedefSayfa": "/"
+      },
+      {
+        "kelime": "kaynaşlı et lokantaları listesi",
+        "durum": "Kaynaşlı'ya özel restoran listesi hiçbir yerde yok",
+        "firsat": "Orta — yerel arama, Google Maps entegrasyonu",
+        "hedefSayfa": "/bakacak-rehberi"
+      },
+      {
+        "kelime": "düzce kasap önerileri kaliteli et",
+        "durum": "Düzce'de kasap önerisi veren içerik yok",
+        "firsat": "Düşük-orta — niş ama sadık kitle",
+        "hedefSayfa": "/et-rehberi"
+      },
+      {
+        "kelime": "istanbul ankara arası mola noktaları yemek 2026",
+        "durum": "Güncel (2026) mola rehberi eksik, eski içerikler hakim",
+        "firsat": "Yüksek — her yıl tekrarlanan arama, güncel içerik avantajı",
+        "hedefSayfa": "/blog"
+      }
+    ]
+  },
+
+  "rekabetDurumu": {
+    "ozet": "Düzce et mangal nişinde güçlü rakip site yok. Mevcut içerikler ya genel rehber siteleri (duzceyegelsene.com, obilet blog) ya da TripAdvisor/Google Maps listeleri. Editöryel derinlikte, Düzce'ye özel et mangal rehberi tamamen boş bir alan.",
+    "rakipler": [
+      {
+        "site": "duzceyegelsene.com",
+        "güç": "Genel Düzce rehberi, çeşitli kategoriler",
+        "zayıflık": "Et mangal özelinde yüzeysel, derinlik yok"
+      },
+      {
+        "site": "obilet.com/blog",
+        "güç": "Domain otoritesi yüksek",
+        "zayıflık": "Genel gezi yazısı, yerel bilgi sığ"
+      },
+      {
+        "site": "tripadvisor.com",
+        "güç": "UGC, yorum hacmi",
+        "zayıflık": "Düşük kalite Türkçe içerik, editorial rehber yok"
+      },
+      {
+        "site": "yamaclar.com.tr",
+        "güç": "Köklü marka (1949)",
+        "zayıflık": "Çok basit site, SEO yok"
+      },
+      {
+        "site": "ibrahiminyeri.com",
+        "güç": "Güçlü blog, Bakacak/Bolu Dağı odaklı SEO",
+        "zayıflık": "Tek mekan odaklı, rehber formatında değil"
+      }
+    ]
+  },
+
+  "oncelikSiralamasi": {
+    "aciklama": "İlk 3 ayda odaklanılması gereken kelime grupları",
+    "tier1_ilkAy": [
+      "düzce et mangal",
+      "düzce mangal",
+      "bakacak mangal",
+      "bakacak köfte",
+      "düzce et lokantası",
+      "düzce mangal nerede yenir"
+    ],
+    "tier2_ikinciAy": [
+      "d100 mangal molası",
+      "istanbul ankara yolu mangal",
+      "bolu dağı et mangal fiyatları",
+      "düzce meşhur yemekleri",
+      "kaynaşlı mangal",
+      "düzce yemek rehberi"
+    ],
+    "tier3_ucuncuAy": [
+      "meşe kömürü mangal farkı",
+      "mangalda kuzu pirzola pişirme",
+      "düzce gezilecek yerler yemek",
+      "düzce hafta sonu ne yapılır",
+      "akçakoca balık restoran",
+      "mangal ateşi nasıl yakılır"
+    ]
+  }
+}
