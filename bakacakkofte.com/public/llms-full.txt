@@ -1,0 +1,99 @@
+# Bakacak Köfte — Detaylı İçerik Haritası
+
+## Marka Kimliği
+
+Bakacak Köfte; köklü bir köfte tarifini mobil karavan konseptine taşıyarak Türkiye genelinde
+franchise veren bir gastronomi markasıdır. Marka adı; Bolu Dağı Bakacak Mevki'den gelir.
+İmza lezzeti "Bakacak Köftesi", bölgenin 30+ yıllık usta geleneğinin standardize edilmiş halidir.
+
+### Konumlandırma
+- Sabit restoran zincirine alternatif, düşük giriş bariyerli bir iş modeli
+- Yatırımcı odaklı, anahtar teslim operasyon paketi
+- Düşük iş gücü ihtiyacı, esnek lokasyon
+- Tutarlı kalite için standardize reçete ve ekipman
+
+### Hedef Kitle
+- **Birincil**: 25-55 yaş, 250K-2M TL yatırım kapasiteli yatırımcı adayı
+- **İkincil**: Mevcut gastronomi işletme sahibi, ek bayilik arayan girişimci
+- **Üçüncül**: Sektörel medya, franchise danışmanları
+
+## Karavan Detayları
+
+Her karavan, aynı iç düzen ve aynı ekipmanla teslim edilir. Bu; operasyon tutarlılığı,
+hızlı eğitim ve bölgeler arası kalite farkının ortadan kalkması demek.
+
+### Ekipman
+- Profesyonel köz ızgara (entegre)
+- Çift kompartımanlı buzdolabı (soğuk zincir)
+- 304 paslanmaz çelik tezgah
+- Kompakt hazırlık ve servis alanları
+- Temiz + gri su tankı ayrımı
+- Şebeke ve jeneratör uyumlu elektrik
+
+### Lokasyon Esnekliği
+- Sabit kira maliyeti yok
+- Günlük lokasyon değişimi mümkün
+- Etkinlik bazlı kurulum (festival, panayır)
+- Marka panelinden günlük konum takibi
+- Instagram üzerinden müşteriye duyuru
+
+### Örnek Kurulum Noktaları
+- Şehir çıkışları ve otoyol dinlenme tesisleri
+- Sahil bandı (Ege, Akdeniz, Karadeniz)
+- Üniversite yerleşkeleri
+- AVM meydan alanları ve food court
+- Festival ve etkinlik alanları
+- Kurumsal kampüs girişleri
+
+## Hedef Bayi Profili
+
+Bayilik kararı çift taraflıdır. Aşağıdaki profil çakışıyorsa başvuru süreci hızlı ilerler.
+
+### Uygun profil
+- Mobil/streetfood iş modeline girmek isteyen yatırımcı
+- 300–500K TL aralığında ilk yatırım yapabilen profil
+- Tek lokasyonla başlayıp bölge çoğaltma planı kuran girişimci
+- Operasyonu kendisi yönetebilen veya yönetici atayabilen sahip
+- Marka standardına ve merkezi tedarik disiplinine uyumlu profil
+
+### Uygun olmayan
+- Anında kâra geçecek pasif yatırım arayanlar
+- Marka kimliği dışında özelleştirme talep edenler
+- Sözleşme dışı tedarikçi kullanmak isteyen işletmeciler
+- Kısa vadeli (12 aydan az) taahhüt kapasitesi olanlar
+
+## Bayilik (Franchise)
+
+### Paket İçeriği
+- Standardize reçete ve merkezi tedarik desteği
+- Karavan + köz ızgara sistemi + ekipman teslimi
+- Operasyon kılavuzu ve yerinde eğitim
+- Marka görsel kimlik paketi ve sosyal medya şablonları
+- Bölge değerlendirmesi ve lokasyon önerisi
+- Açılış destek paketi (ilk 30 gün)
+
+### Süreç
+1. **Başvuru** — Franchise formu üzerinden lokasyon ve iletişim bilgileri
+2. **Görüşme** — Bölge, yatırım kapasitesi, işletme tecrübesi
+3. **Sözleşme & Teslim** — Karavan, ekipman, eğitim, kılavuz
+
+### Durum
+Başlangıç yatırımı, aylık royalty, geri dönüş süresi ve eğitim süresi detayları güncelleniyor.
+Başvuru sonrası kişiye özel değerlendirme raporunda paylaşılır.
+
+## İletişim
+
+- **Bayilik Hattı**: +908508888114 (0850 888 81 14)
+- **Bilgi / WhatsApp**: +905416535281 (0541 653 52 81)
+- **E-posta**: bayilik@bakacakkofte.com
+- **Instagram**: @bakacakkofte
+- **Merkez**: Bolu Dağı Bakacak Mevki · Kaynaşlı · Düzce
+- **Saatler**: Pazartesi – Cuma · 09:00 – 18:00
+
+## Teknik
+
+- **Platform**: Next.js 16 · React 19 · TypeScript
+- **Stil**: Tailwind CSS v4
+- **Dil**: Türkçe (tr-TR)
+- **Erişilebilirlik**: WCAG 2.1 AA uyumlu
+- **Performans**: SSG/ISR ile Core Web Vitals optimize
