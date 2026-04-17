@@ -1,0 +1,131 @@
+{
+  "project": "wixuzmani.com",
+  "industry": "wix premium agency & consulting services",
+  "target_market": "Turkey",
+  "target_language": "tr",
+  "analysis_date": "2026-04-17",
+  "sibling_site_note": "wix-destek.com.tr kardeş site olarak 'wix destek/yardım/türkçe destek' havuzunu hedefliyor. Bu projede KANNİBALİZE OLMAMAK için 'ajans, kurumsal, fiyat, profesyonel, ölçülebilir' odaklı farklı havuz hedeflenmeli.",
+
+  "primary_keywords": [
+    { "keyword": "wix ajans", "search_volume": "medium", "competition": "low", "intent": "commercial", "target_page": "/", "variations": ["wix ajansı", "wix tasarım ajansı", "wix ajans türkiye"] },
+    { "keyword": "wix danışmanlık", "search_volume": "medium", "competition": "low", "intent": "commercial", "target_page": "/hizmetler", "variations": ["wix danışmanlık hizmeti", "wix kurumsal danışman", "wix strateji danışmanlığı"] },
+    { "keyword": "wix kurumsal site", "search_volume": "medium", "competition": "low", "intent": "commercial", "target_page": "/hizmetler/wix-kurumsal-site", "variations": ["wix kurumsal web sitesi", "wix şirket sitesi"] },
+    { "keyword": "wix profesyonel tasarım", "search_volume": "medium", "competition": "medium", "intent": "commercial", "target_page": "/hizmetler/wix-premium-tasarim", "variations": ["wix profesyonel site tasarımı", "wix premium tasarım"] },
+    { "keyword": "wix e-ticaret kurulum fiyat", "search_volume": "high", "competition": "medium", "intent": "commercial", "target_page": "/hizmetler/wix-eticaret-ajans", "variations": ["wix e-ticaret fiyatları", "wix online mağaza fiyat"] },
+    { "keyword": "wix hız optimizasyonu", "search_volume": "medium", "competition": "low", "intent": "commercial-investigation", "target_page": "/hizmetler/wix-performans", "variations": ["wix core web vitals", "wix site hızlandırma hizmeti"] },
+    { "keyword": "wix seo ajansı", "search_volume": "medium", "competition": "low", "intent": "commercial", "target_page": "/hizmetler/wix-seo-ajans", "variations": ["wix seo hizmeti", "wix seo danışmanlığı"] },
+    { "keyword": "wix migration hizmeti", "search_volume": "low", "competition": "low", "intent": "commercial", "target_page": "/hizmetler/wix-migration", "variations": ["wordpress wix taşıma", "wix taşıma hizmeti", "shopify wix geçiş"] },
+    { "keyword": "wix bakım paketi", "search_volume": "low", "competition": "low", "intent": "commercial", "target_page": "/hizmetler/wix-bakim", "variations": ["wix aylık bakım", "wix site bakım anlaşması"] },
+    { "keyword": "wix dönüşüm optimizasyonu", "search_volume": "low", "competition": "low", "intent": "commercial", "target_page": "/hizmetler/wix-cro", "variations": ["wix cro", "wix conversion rate"] }
+  ],
+
+  "secondary_keywords": [
+    { "keyword": "wix tasarım hizmeti fiyat", "intent": "commercial", "target_page": "/fiyatlar" },
+    { "keyword": "wix kurumsal site tasarımı", "intent": "commercial", "target_page": "/hizmetler/wix-kurumsal-site" },
+    { "keyword": "wix landing page tasarımı", "intent": "commercial", "target_page": "/hizmetler/wix-premium-tasarim" },
+    { "keyword": "wix tema özelleştirme ücret", "intent": "commercial", "target_page": "/fiyatlar" },
+    { "keyword": "wix performans iyileştirme", "intent": "commercial-investigation", "target_page": "/hizmetler/wix-performans" },
+    { "keyword": "wix lighthouse skor", "intent": "informational", "target_page": "/hizmetler/wix-performans" },
+    { "keyword": "wix iyzico kurumsal entegrasyon", "intent": "commercial", "target_page": "/hizmetler/wix-eticaret-ajans" },
+    { "keyword": "wix b2b site", "intent": "commercial", "target_page": "/hizmetler/wix-kurumsal-site" },
+    { "keyword": "wix portföy sitesi ajans", "intent": "commercial", "target_page": "/vaka-calismalari" },
+    { "keyword": "wix ajans türkiye", "intent": "commercial", "target_page": "/hakkimizda" }
+  ],
+
+  "long_tail_keywords": [
+    { "keyword": "wix vs shopify kurumsal e-ticaret için hangisi", "target_page": "/blog/wix-vs-shopify-kurumsal-karsilastirma" },
+    { "keyword": "wix sitesi nasıl hızlandırılır core web vitals", "target_page": "/blog/wix-core-web-vitals-rehberi" },
+    { "keyword": "wix kurumsal kullanıma uygun mu", "target_page": "/blog/wix-kurumsal-kullanima-uygun-mu" },
+    { "keyword": "wix velo ile özel fonksiyon geliştirme", "target_page": "/blog/wix-velo-ozel-gelistirme" },
+    { "keyword": "wix conversion rate optimization türkiye", "target_page": "/blog/wix-dönüsüm-optimizasyonu-rehberi" },
+    { "keyword": "wix kurumsal b2b site örnekleri", "target_page": "/blog/wix-b2b-site-ornekleri" },
+    { "keyword": "wix editor x ile studio karşılaştırması", "target_page": "/blog/wix-editor-x-studio-karsilastirma" },
+    { "keyword": "wix ajansı seçerken nelere dikkat etmeli", "target_page": "/blog/wix-ajansi-secim-rehberi" }
+  ],
+
+  "keyword_map": {
+    "/": {
+      "primary": "wix ajansı",
+      "secondary": ["wix danışmanlık", "wix profesyonel tasarım", "wix kurumsal site"],
+      "meta_title": "Wix Uzmanı — Ölçülebilir Sonuç Veren Wix Ajansı",
+      "meta_description": "Tasarımcı, SEO uzmanı ve geliştiriciden oluşan ekiple Wix'te ajans kalitesinde strateji, tasarım ve performans. Core Web Vitals garantili teslim, sabit fiyat.",
+      "h1": "Wix'te ajans kalitesi, ölçülebilir sonuç."
+    },
+    "/hizmetler": {
+      "primary": "wix danışmanlık",
+      "secondary": ["wix ajans hizmetleri", "wix profesyonel hizmet"],
+      "meta_title": "Hizmetler — Wix Ajans Danışmanlığı, Tasarım, SEO, Performans",
+      "meta_description": "Wix platformunda kurumsal site, e-ticaret, performans, SEO ve dönüşüm optimizasyonu hizmetleri. Ölçülebilir KPI, sabit kapsam, ajans kalitesi.",
+      "h1": "Hizmetler"
+    },
+    "/vaka-calismalari": {
+      "primary": "wix vaka çalışması",
+      "secondary": ["wix before after", "wix ajans portföy"],
+      "meta_title": "Vaka Çalışmaları — Wix Projelerinde Ölçülebilir Sonuçlar",
+      "meta_description": "Wix projelerimizde elde ettiğimiz organik trafik, Core Web Vitals ve dönüşüm iyileştirmeleri. Sektör bazlı vaka çalışmaları.",
+      "h1": "Vaka Çalışmaları"
+    },
+    "/fiyatlar": {
+      "primary": "wix ajans fiyatları",
+      "secondary": ["wix kurumsal site fiyatı", "wix bakım paketi"],
+      "meta_title": "Fiyatlar — Şeffaf Wix Ajans Paketleri",
+      "meta_description": "Kurulum, performans, SEO ve bakım paketleri. Kapsam net, fiyat sabit. Özel projeler için randevu bazlı teklif.",
+      "h1": "Paketler ve Fiyatlar"
+    },
+    "/sss": {
+      "primary": "wix ajans sıkça sorulan sorular",
+      "meta_title": "Sıkça Sorulan Sorular — Wix Uzmanı Ajans",
+      "meta_description": "Süreç, fiyat, teslim, ölçüm ve gizlilik konularında sık sorulan sorular.",
+      "h1": "Sıkça Sorulan Sorular"
+    },
+    "/blog": {
+      "primary": "wix ajans blog",
+      "meta_title": "Blog — Wix Stratejisi, Performans ve CRO Rehberleri",
+      "meta_description": "Wix üzerinde kurumsal strateji, performans, SEO ve dönüşüm optimizasyonu üzerine uzun soluklu rehberler.",
+      "h1": "Rehberler"
+    },
+    "/iletisim": {
+      "primary": "wix ajans iletişim",
+      "meta_title": "İletişim — Strateji Görüşmesi Planlayın",
+      "meta_description": "Ücretsiz 30 dakikalık strateji görüşmesi. Form, randevu takvimi veya WhatsApp üzerinden ulaşın.",
+      "h1": "Strateji Görüşmesi"
+    },
+    "/hakkimizda": {
+      "primary": "wix ajansı türkiye",
+      "meta_title": "Hakkımızda — Türkiye'nin Wix Uzman Ekibi",
+      "meta_description": "Tasarımcı, SEO uzmanı ve geliştiriciden oluşan ajans ekibi. İş hedefinden hareket eden, ölçülebilir sonuç teslim eden yaklaşım.",
+      "h1": "Uzman Ekip"
+    }
+  },
+
+  "blog_topic_seeds": [
+    { "topic": "Wix Kurumsal Kullanıma Uygun Mu? Ajans Perspektifinden Dürüst Değerlendirme", "slug": "wix-kurumsal-kullanima-uygun-mu", "target_keyword": "wix kurumsal kullanıma uygun mu", "cornerstone": true },
+    { "topic": "Wix Core Web Vitals Optimizasyonu: 2026 Tam Rehber", "slug": "wix-core-web-vitals-rehberi", "target_keyword": "wix site hızlandırma core web vitals", "cornerstone": true },
+    { "topic": "Wix Ajansı Seçerken Nelere Dikkat Etmeli: 10 Kriter", "slug": "wix-ajansi-secim-rehberi", "target_keyword": "wix ajansı seçim", "cornerstone": true },
+    { "topic": "Wix vs Shopify: Kurumsal E-Ticaret İçin Hangisi?", "slug": "wix-vs-shopify-kurumsal-karsilastirma", "target_keyword": "wix vs shopify kurumsal" },
+    { "topic": "Wix Velo ile Özel Fonksiyon Geliştirme: Ne Zaman Anlamlı?", "slug": "wix-velo-ozel-gelistirme", "target_keyword": "wix velo özel geliştirme" },
+    { "topic": "Wix Dönüşüm Oranı Optimizasyonu (CRO): Ajans Yaklaşımı", "slug": "wix-donusum-optimizasyonu-rehberi", "target_keyword": "wix conversion rate optimization" },
+    { "topic": "Wix B2B Sitesi Kurulumu: Kurumsal Gereksinimler Kontrol Listesi", "slug": "wix-b2b-site-ornekleri", "target_keyword": "wix b2b site" },
+    { "topic": "Wix Editor X vs Wix Studio: Ajanslar İçin Karar Kılavuzu", "slug": "wix-editor-x-studio-karsilastirma", "target_keyword": "wix editor x studio" }
+  ],
+
+  "content_gaps": [
+    "Türkçede 'ajans perspektifinden Wix' eleştirel değerlendirmesi yok",
+    "Core Web Vitals için Wix'e özel derin teknik rehber yok",
+    "Wix CRO / A-B test yaklaşımı için Türkçe içerik sıfır",
+    "Wix Studio'nun Türkçe ajans karşılaştırması yok"
+  ],
+
+  "competitor_gap": [
+    "Wix-destek.com.tr samimi-freelance tonda — bu alan premium ajans için boş",
+    "Türk ajanslar 'WordPress/shopify ajansı' diyor, Wix uzmanlığı iddiası eden yok",
+    "Vaka çalışması ve metrik-odaklı anlatım eksik"
+  ],
+
+  "intent_distribution_summary": {
+    "strategy": "Premium commercial + kurumsal B2B. Blog 3 cornerstone piece ile authority; hizmet sayfaları ticari niyet yakalar.",
+    "primary_target_pages": 10,
+    "total_keywords": "~60+",
+    "pillar_pages": ["Wix Kurumsal Kullanıma Uygun Mu", "Wix Core Web Vitals Rehberi", "Wix Ajansı Seçim Rehberi"]
+  }
+}

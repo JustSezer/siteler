@@ -1,0 +1,170 @@
+{
+  "brand": {
+    "name": "Wix Uzmanı",
+    "tagline_candidates": [
+      "Ölçülebilir sonuç veren Wix ajansı",
+      "Wix'te ajans kalitesi, uzman ekip",
+      "Kurumsal Wix için uzman danışmanlık",
+      "Wix sitenizi gelir üreten varlığa dönüştürün",
+      "Veri odaklı Wix danışmanlığı"
+    ],
+    "tagline": "Ölçülebilir sonuç veren Wix ajansı",
+    "mission": "Türkiye'deki KOBİ'ler, kurumsal markalar ve profesyonellerin Wix platformunda ajans düzeyinde strateji, tasarım ve optimizasyonla somut ticari sonuç almasını sağlamak.",
+    "vision": "Wix'te 'ajans kalitesi' denince ilk akla gelen Türk ekip olmak; her projeyi bir vaka çalışmasına dönüştürmek.",
+    "value_proposition": "Tasarımcı, SEO uzmanı ve geliştiriciden oluşan uzman ekiple; marka kimliğinizi Wix'te ajans kalitesinde hayata geçirir, Core Web Vitals ve dönüşüm oranı gibi ölçülebilir KPI'ları iyileştiririz."
+  },
+  "personality": {
+    "traits": [
+      "uzman",
+      "veri-odaklı",
+      "stratejik",
+      "kurumsal",
+      "sofistike"
+    ],
+    "tone_of_voice": {
+      "primary": "Kıdemli danışman: 'Önce ölçelim, sonra karar verelim' diyen; rakam ve kanıtla konuşan güvenilir uzman.",
+      "secondary": "Marka stratejisti: mimari-düzeyde düşünen, kararları iş hedefine bağlayan, kurumsal jargona hakim ama şişirmeyen.",
+      "avoid": "Samimi-acemi ton, aşırı yumuşatma, 'panik yapmayın' tarzı rahatlatıcı dil, kolay çözüm vaatleri, ucuzluk vurgusu."
+    },
+    "communication_style": {
+      "formality": "formal (siz dili, profesyonel mesafeli)",
+      "humor": "yok; yerine hassas kelime seçimi",
+      "emoji_usage": "asla; kurumsal tonun bozucusu",
+      "sentence_length": "orta (15-25 kelime); her cümle iş değeri taşır"
+    }
+  },
+  "visual_identity": {
+    "colors": {
+      "background": { "hex": "#FAFAF7", "hsl": "60 14% 97%", "usage": "Sayfa arka planı — kırık beyaz, premium tuval", "psychology": "Sofistike netlik, lüks dergi hissi" },
+      "surface": { "hex": "#F3F2EC", "hsl": "50 15% 93%", "usage": "Kart ve bölüm arkaplan varyasyonu", "psychology": "Yumuşak hiyerarşi, sıcak kurumsal" },
+      "surface-elevated": { "hex": "#FFFFFF", "hsl": "0 0% 100%", "usage": "Form kartları, modal", "psychology": "Odak ve netlik" },
+      "border": { "hex": "#E5E4DC", "hsl": "52 15% 88%", "usage": "İnce çerçeveler, ayırıcılar", "psychology": "Sessiz düzen" },
+      "border-strong": { "hex": "#C9C7B8", "hsl": "50 14% 76%", "usage": "Vurgulu çerçeve, tablo çizgileri", "psychology": "Net sınır" },
+      "text-primary": { "hex": "#0A3D2E", "hsl": "157 72% 14%", "usage": "Başlıklar, ana gövde — derin zümrüt", "psychology": "Otorite, kurumsal güven, büyüme" },
+      "text-secondary": { "hex": "#1F4A3A", "hsl": "154 41% 21%", "usage": "Alt başlıklar, açıklama metni", "psychology": "Bilgilendirici destek" },
+      "text-muted": { "hex": "#6B7A72", "hsl": "152 8% 45%", "usage": "Yardım metni, placeholder, meta", "psychology": "Arka plan bilgi" },
+      "primary": { "hex": "#0A3D2E", "hsl": "157 72% 14%", "usage": "Marka rengi, header, ikincil buton, logotype", "psychology": "Derin zümrüt — kurumsal, büyüme, sofistike" },
+      "primary-foreground": { "hex": "#FAFAF7", "hsl": "60 14% 97%", "usage": "Zümrüt zemin üzerindeki metin", "psychology": "Maksimum kontrast" },
+      "accent": { "hex": "#C9A961", "hsl": "42 50% 59%", "usage": "Birincil CTA, altın vurgu, vaka çalışması metriği", "psychology": "Bronz/altın — değer, lüks, başarı" },
+      "accent-foreground": { "hex": "#0A3D2E", "hsl": "157 72% 14%", "usage": "Altın CTA üzerindeki metin", "psychology": "Net kontrast, kurumsal duruş" },
+      "accent-hover": { "hex": "#B89550", "hsl": "41 41% 52%", "usage": "Accent butonun hover hali", "psychology": "Dokunsal geri bildirim" },
+      "accent-soft": { "hex": "#F4ECD6", "hsl": "44 61% 89%", "usage": "Vaka çalışması kartı arkaplan, hafif vurgu", "psychology": "Premium sıcaklık" },
+      "emerald-deep": { "hex": "#062A20", "hsl": "157 70% 10%", "usage": "Hero panel, dark footer", "psychology": "Derin otorite" },
+      "emerald-soft": { "hex": "#E6F0EB", "hsl": "152 25% 92%", "usage": "Başarı banner, yumuşak arka plan", "psychology": "Yumuşak büyüme hissi" },
+      "success": { "hex": "#16A34A", "hsl": "142 72% 36%", "usage": "Form onay", "psychology": "Tamamlandı" },
+      "warning": { "hex": "#D97706", "hsl": "27 94% 44%", "usage": "Uyarı", "psychology": "Dikkat" },
+      "destructive": { "hex": "#B91C1C", "hsl": "0 72% 42%", "usage": "Hata", "psychology": "Kurumsal hata sinyali" },
+      "focus-ring": { "hex": "#C9A961", "hsl": "42 50% 59%", "usage": "Klavye focus (a11y)", "psychology": "Görünür erişilebilirlik" }
+    },
+    "typography": {
+      "heading": { "family": "Manrope, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif", "weights": [500, 600, 700, 800], "style": "Modern, editöryel, düşük x-height, keskin kurumsal hava" },
+      "body": { "family": "Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif", "weights": [400, 500, 600], "style": "Yüksek okunabilirlik" },
+      "mono": { "family": "'JetBrains Mono', ui-monospace, monospace", "usage": "KPI metrikleri, kod ve DNS örnekleri" },
+      "scale": {
+        "display": { "font-size": "4rem", "line-height": "1.02", "font-weight": 800, "letter-spacing": "-0.035em" },
+        "h1": { "font-size": "3.25rem", "line-height": "1.08", "font-weight": 700, "letter-spacing": "-0.03em" },
+        "h2": { "font-size": "2.5rem", "line-height": "1.15", "font-weight": 700, "letter-spacing": "-0.025em" },
+        "h3": { "font-size": "1.875rem", "line-height": "1.25", "font-weight": 600, "letter-spacing": "-0.02em" },
+        "h4": { "font-size": "1.5rem", "line-height": "1.3", "font-weight": 600, "letter-spacing": "-0.01em" },
+        "body-lg": { "font-size": "1.125rem", "line-height": "1.7", "font-weight": 400, "letter-spacing": "0" },
+        "body": { "font-size": "1rem", "line-height": "1.7", "font-weight": 400, "letter-spacing": "0" },
+        "body-sm": { "font-size": "0.9375rem", "line-height": "1.6", "font-weight": 400, "letter-spacing": "0" },
+        "caption": { "font-size": "0.75rem", "line-height": "1.5", "font-weight": 600, "letter-spacing": "0.12em", "text-transform": "uppercase" }
+      }
+    },
+    "spacing": {
+      "feel": "Geniş editöryel nefes; ajans portföy sitesi ritmi",
+      "section_gap": "128px (mobil 80px)",
+      "component_gap": "40px (mobil 28px)"
+    },
+    "radius": {
+      "radius-sm": "4px",
+      "radius-md": "8px",
+      "radius-lg": "14px",
+      "radius-full": "9999px",
+      "default": "radius-md"
+    },
+    "imagery": {
+      "style": "Editöryel ajans estetiği: siyah-beyaz veya düşük doygunluklu fotoğraflar, bronz aksan, büyük beyaz alan, vaka çalışması 'before/after' kompozisyonları.",
+      "avoid": "Parlak gradient posterler, sahte stok gülümsemesi, 3D karakter, teknoloji klişesi görseller.",
+      "icons": "Lucide 1.25px stroke, minimal; renk primary ya da muted."
+    }
+  },
+  "cta_styles": {
+    "primary": {
+      "description": "Bronz/altın CTA — randevu, teklif, form gönderimi.",
+      "bg": "#C9A961", "fg": "#0A3D2E", "border": "1px solid transparent", "radius": "8px",
+      "padding": "14px 26px", "font-weight": 600,
+      "hover": { "bg": "#B89550", "transform": "translateY(-1px)" }
+    },
+    "secondary": {
+      "description": "İkincil — 'Vaka çalışmalarını gör', 'Hizmet detayı'.",
+      "bg": "transparent", "fg": "#0A3D2E", "border": "1.5px solid #0A3D2E", "radius": "8px",
+      "padding": "12.5px 24px", "font-weight": 600,
+      "hover": { "bg": "#0A3D2E", "fg": "#FAFAF7" }
+    }
+  },
+  "content_guidelines": {
+    "headline_style": "İş hedefi + somut fayda. Rakam, KPI veya ölçülebilir vaat. 8 kelimeyi aşmayan editöryel.",
+    "body_style": "Orta uzunlukta paragraflar, terimler doğru kullanılır, vakit kaybı yaratmayan akış.",
+    "cta_style": "Fiil + somut aksiyon. 'Randevu alın', 'Strateji görüşmesi planlayın', 'Ücretsiz teşhis alın'.",
+    "words_to_use": ["strateji", "ölçülebilir", "dönüşüm", "KPI", "ajans", "uzman", "kurumsal", "danışmanlık", "vaka çalışması", "Core Web Vitals", "performans", "optimizasyon"],
+    "words_to_avoid": [
+      { "word": "ucuz", "reason": "Premium konumlandırmayı bozar." },
+      { "word": "kolay", "reason": "İşi küçümser, ajans algısını zayıflatır." },
+      { "word": "hemen", "reason": "Aceleci ton kurumsal değil." },
+      { "word": "garanti", "reason": "Yasal taahhüt yükler." },
+      { "word": "müthiş", "reason": "Abartı." },
+      { "word": "basit", "reason": "İşi küçümser." },
+      { "word": "kampanya", "reason": "Satış-pazarlama tonu." },
+      { "word": "panik", "reason": "Kardeş markanın tonu; farklılaş." }
+    ],
+    "examples": [
+      { "bad": "Wix sitenizi kolayca ve hemen profesyonel hale getirelim!", "good": "Wix sitenizi ölçülebilir KPI'larla ajans kalitesine taşıyalım." },
+      { "bad": "En ucuz Wix desteği için bize ulaşın.", "good": "Performans, SEO ve dönüşüm odaklı Wix danışmanlığı için randevu alın." }
+    ]
+  },
+  "trust_signals": [
+    "Ajans düzeyinde ekip: tasarımcı + SEO uzmanı + geliştirici",
+    "Core Web Vitals garantili teslim",
+    "Sabit kapsam, sabit fiyat — teklif sonrası değişmez",
+    "Her proje için ölçüm panosu (GA4, Search Console)",
+    "Kurumsal gizlilik ve KVKK uyumu",
+    "Yalnızca Wix — platform uzmanlığı",
+    "Randevu bazlı strateji görüşmesi"
+  ],
+  "logo_concept": {
+    "type": "Text-only logotype (HTML/CSS ile render edilir)",
+    "structure": "'Wix' + küçük bronz aksan + 'Uzmanı'",
+    "primary_mark_html_sketch": "<span class='logo'>wix<span class='logo-mark'>·</span>uzmanı</span>",
+    "typeface": "Manrope",
+    "weights": { "wix": 800, "mark": 800, "uzmani": 500 },
+    "letter-spacing": "-0.03em",
+    "color_mix": { "wix": "#0A3D2E", "mark": "#C9A961", "uzmani": "#0A3D2E" },
+    "dont": [
+      "Wix'in resmi logosunu veya mavisini kullanma.",
+      "Büyük harf yazma (lowercase editöryel).",
+      "Degrade ya da 3D efekt.",
+      "İtalik."
+    ]
+  },
+  "brand_rules": {
+    "do": [
+      "Her sayfada tek birincil bronz CTA olsun.",
+      "KPI/metrik olduğunda mono font ile sergile.",
+      "Vaka çalışması bloğu her uzun sayfada bir yerde görünsün.",
+      "Trust signal olarak somut rakam ver ('+%120 organik trafik' gibi).",
+      "Editöryel beyaz alan — sıkıştırma.",
+      "Küçük harf tipografik aksent kullan (lowercase başlıklar)."
+    ],
+    "dont": [
+      "Wix resmi markasını birebir kopyalama.",
+      "Turuncu veya kırmızı CTA kullanma (kardeş marka).",
+      "Emoji.",
+      "'Panik', 'hemen', 'kolayca' gibi kelimeler.",
+      "Dark mode.",
+      "Amaçsız animasyon.",
+      "Stok gülümseyen ekip fotoğrafı."
+    ]
+  }
+}
